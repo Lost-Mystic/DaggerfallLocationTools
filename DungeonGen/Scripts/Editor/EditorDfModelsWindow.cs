@@ -686,6 +686,7 @@ public class EditorDfModelsWindow : EditorWindow
 
         if (GUILayout.Button("Print selected items", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
         {
+            EditorUtility.SetDirty(soData);
             Debug.Log("---===Selected Index===---");
             for (int i = 0; i < selectedIndex.Count; i++) {
                 Debug.Log("Index: " + selectedIndex[i].ToString());

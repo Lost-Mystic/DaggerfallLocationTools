@@ -34,3 +34,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.meta
+*.meta
+*.meta
+DungeonGen/Scripts/Original/BlockRecordSerializer.cs.meta
