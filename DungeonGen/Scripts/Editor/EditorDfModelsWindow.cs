@@ -130,16 +130,15 @@ public class EditorDfModelsWindow : EditorWindow
         // Put blank space before and after scroll view using unit size times units remaining
         // This is updated every frame so if list changes, it will be updated with the frame
 
-        //EditorGUILayout.LabelField("Selectable Num: " + selectedIndex.ToString());
+        
 
         // This gets the array of records, and displays those already known.
 
-        //var p_list = serializedRecords.FindProperty("record");
+
 
         GUILayout.Space(EntriesBefore * EntryHeight);
 
-        for (int i = EntriesBefore; i < (iMaxEntries+EntriesBefore); i++)
-      //for (int i = 0; i < FilteredModels.Count; i++)
+        for (int i = EntriesBefore; i < (iMaxEntries + EntriesBefore); i++)
         {
             //GUI.backgroundColor = (selectedIndex == i) ? color_selected : color_default;
             if (IsSelected(i))
@@ -147,22 +146,19 @@ public class EditorDfModelsWindow : EditorWindow
             else
                 gsCurrent = GUIStyle.none;
 
-            //EditorGUILayout.PropertyField(p_list.GetArrayElementAtIndex(i), false);
 
-            //Rect lastRect = GUILayoutUtility.GetRect(30,10);
-            //GUIContent entry = new GUIContent(p_list.GetArrayElementAtIndex(i).FindPropertyRelative("ModelID").intValue.ToString());
             GUIContent entry = new GUIContent(FilteredModels[i].ModelID.ToString());
 
 
-            if (GUILayout.Button(entry, gsCurrent, GUILayout.ExpandWidth(false),GUILayout.ExpandHeight(false), GUILayout.Height(EntryHeight),GUILayout.Width(EntryWidth)))
+            if (GUILayout.Button(entry, gsCurrent, GUILayout.ExpandWidth(false), GUILayout.ExpandHeight(false), GUILayout.Height(EntryHeight), GUILayout.Width(EntryWidth)))
             {
-                InputSelectNewObjects(i,FilteredModels[i].ModelID);
+                InputSelectNewObjects(i, FilteredModels[i].ModelID);
             }
-        }
 
+        }
         GUILayout.Space(EntriesAfter * EntryHeight);
 
-        //GUILayout.FlexibleSpace();
+        
 
         GUILayout.EndScrollView();
 
@@ -199,7 +195,7 @@ public class EditorDfModelsWindow : EditorWindow
     {
         bool DeSelected = false;
 
-        CheckMeshLoaded(NowClickedIndex);
+        
 
         if (Event.current.control)
         {
@@ -257,7 +253,7 @@ public class EditorDfModelsWindow : EditorWindow
 
         soData.LastClickedIndex = NowClickedIndex;
 
-
+        CheckMeshLoaded(NowClickedIndex);
         // Cached Filtered Objects Update
 
         PreviewRenderInit();
@@ -278,24 +274,29 @@ public class EditorDfModelsWindow : EditorWindow
     /// <param name="NowClickedIndex"></param>
     void CheckMeshLoaded(int NowClickedIndex)
     {
-
         if (soData.record.Count <= 0) return;
+
+        //Debug.Log("Try to Check Mesh" + FilteredModels.Count.ToString() + " " + NowClickedIndex.ToString());
 
         if (NowClickedIndex == -1)
             NowClickedIndex = soData.LastClickedIndex;
+
+        Debug.Log("Try to Check Mesh" + FilteredModels[NowClickedIndex].ModelID.ToString());
 
         bool LikelyLostFocus = (selectedIndex.Count == 1 && soData.LastClickedIndex == 0);
         bool ForceUpdate = (NowClickedIndex == -1);
         bool ClickedOnSameItem = (NowClickedIndex == soData.LastClickedIndex);
 
-        if ((!LikelyLostFocus && !ClickedOnSameItem) || ForceUpdate)
+      //  if ((!LikelyLostFocus && !ClickedOnSameItem) || ForceUpdate)
         {
 
 
-            //Debug.Log("Loading Display Mesh LastClickedID: " + FilteredModels[NowClickedIndex].ModelID.ToString());
+            Debug.Log("Loading Display Mesh ID: " + FilteredModels[NowClickedIndex].ModelID.ToString());
             myBareMesh = SpawnDfModel.GetBareMeshFromId(FilteredModels[NowClickedIndex].ModelID);
             
         }
+
+        soData.LastClickedIndex = NowClickedIndex;
     }
 
 
@@ -319,10 +320,7 @@ public class EditorDfModelsWindow : EditorWindow
             GUILayout.EndVertical();
             return;
         }
-        //if (soData.record == null) return;
 
-        //if (FilteredModels[soData.LastClickedIndex].BareMesh == null) return; // Records added but no graphics
-        //if (FilteredModels[soData.LastClickedIndex].BareMesh.mesh == null) return;
         
 
         if (myBareMesh == null)
@@ -335,7 +333,7 @@ public class EditorDfModelsWindow : EditorWindow
         }
 
         DrawRenderPreview(myBareMesh, GUILayoutUtility.GetRect(EditorGUIUtility.currentViewWidth-dimFilteredListWidth, dimPreviewFilteredHeight), GUIStyle.none);
-        //DrawRenderPreview(FilteredModels[soData.LastClickedIndex].BareMesh, GUILayoutUtility.GetRect(200, 200), GUIStyle.none);
+        
 
         GUILayout.EndVertical();
     }
@@ -419,10 +417,26 @@ public class EditorDfModelsWindow : EditorWindow
 
         //previewRenderUtility.camera.transform.position = PrevCameraPos;
 
-        previewRenderUtility.camera.transform.RotateAround(Vector3.forward *0, Vector3.up, -drag.x*PanMod);
-        previewRenderUtility.camera.transform.RotateAround(Vector3.forward *0, Vector3.right, -drag.y*PanMod);
 
-        previewRenderUtility.camera.transform.LookAt(Vector3.zero, Vector3.up);
+
+        if (Event.current.type == EventType.MouseDrag && Event.current.button == 2)
+        {
+            previewRenderUtility.camera.transform.Translate(previewRenderUtility.camera.transform.right * -drag.x * PanMod * 0.3f);
+            previewRenderUtility.camera.transform.Translate(previewRenderUtility.camera.transform.up * - drag.y * PanMod * 0.3f);
+        } else
+        {
+            previewRenderUtility.camera.transform.RotateAround(Vector3.forward * 0, Vector3.up, -drag.x * PanMod);
+            previewRenderUtility.camera.transform.RotateAround(Vector3.forward * 0, Vector3.right, -drag.y * PanMod);
+            //previewRenderUtility.camera.transform.Rotate(0, -drag.x * PanMod,0);
+            //previewRenderUtility.camera.transform.Rotate(-drag.y * PanMod,0,0);
+        }
+
+       // if(Event.current.type == EventType.MouseDrag && Event.current.button == 1)
+        {
+            previewRenderUtility.camera.transform.LookAt(Vector3.zero, Vector3.up);
+        }
+
+
         previewRenderUtility.camera.transform.Translate(previewRenderUtility.camera.transform.forward * -1 * ScrollDelta.y * ScrollMod);
 
 
@@ -436,6 +450,10 @@ public class EditorDfModelsWindow : EditorWindow
     }
 
 
+    /// <summary>
+    /// Returns a list of selected records
+    /// </summary>
+    /// <returns></returns>
     private List<DfModelRecord> GetSelectedModelRecords()
     {
         List<DfModelRecord> df = new List<DfModelRecord>();
@@ -463,7 +481,7 @@ public class EditorDfModelsWindow : EditorWindow
         {
             // Check if label has been added to any items at all
             soData.TryToAddLabel(txtLabelEntry, GetSelectedModelRecords());
-
+            UpdateFilteredList();
         }
 
         if (GUILayout.Button("Remove"))
@@ -478,20 +496,26 @@ public class EditorDfModelsWindow : EditorWindow
     }
 
 
+    /// <summary>
+    /// If true, only displays things with NO labels.
+    /// </summary>
+    bool bHideLabeled = false;
 
     /// <summary>
-    /// Prints the currently selected labels
+    /// Prints the currently selected labels bar section below the model preview.
     /// </summary>
     void PrintCurrentSelectedLabels()
     {
         
         EditorGUILayout.BeginHorizontal();
 
+        /*
         if (SelectedLabel.Count <= 0)
         {
             GUILayout.Label("---No Labels Selected---");
             
         }
+        */
 
         GUIStyle fds = new GUIStyle();
         fds = EditorStyles.miniButton;
@@ -506,8 +530,6 @@ public class EditorDfModelsWindow : EditorWindow
         // Print selected labels first
         for (int i = 0; i < SelectedLabel.Count; i++)
         {
-
-            
             // Remove selected label when clicked
             if (GUILayout.Button(SelectedLabel[i])) 
             {
@@ -531,7 +553,7 @@ public class EditorDfModelsWindow : EditorWindow
             
         }
 
-        // Then print all other labels on currently selected object minus selected ones.
+        // Then print all other label buttons on currently selected object minus selected ones.
         if (FilteredModels != null)
             if (FilteredModels.Count > 0)
                 for (int i = 0; i < FilteredModels[soData.LastClickedIndex].Labels.Count; i++)
@@ -547,6 +569,19 @@ public class EditorDfModelsWindow : EditorWindow
                     }
                 }
 
+        if (GUILayout.Button(bHideLabeled?"Show All":"Hide Labeled", bHideLabeled?EditorStyles.toolbarButton:EditorStyles.whiteLabel))
+        {
+            bHideLabeled = !bHideLabeled;
+
+            if (bHideLabeled)
+                SelectedLabel = new List<string>();
+
+            UpdateFilteredList();
+            
+        }
+
+        
+
         GUILayout.FlexibleSpace();
         EditorGUILayout.EndHorizontal();
     }
@@ -558,55 +593,132 @@ public class EditorDfModelsWindow : EditorWindow
     void UpdateFilteredList()
     {
 
+        // If no records then return
         if (soData.record.Count <= 0) return;
 
-        // Save the last clicked ID model, and see if it's still selected at the end.
-        int LastClickedId = FilteredModels[soData.LastClickedIndex].ModelID;
+        List<int> SelectedID = new List<int>();
 
-        bool FoundSelectedRecordInNewFilteredList = false;
+        if (selectedIndex == null)
+            selectedIndex = new List<int>();
+
+        // Setup the Selected ID list before the old filtered list is wiped away
+        if (soData.LastClickedIndex >= 0)
+        {
+            // First selected ID is last clicked
+            SelectedID.Add(FilteredModels[soData.LastClickedIndex].ModelID);
+            // Convert all models to IDs for later
+            for (int i = 1; i < selectedIndex.Count; i++)
+            {
+                SelectedID.Add(FilteredModels[selectedIndex[i]].ModelID);
+            }
+        }
+
+        FilteredModels = new List<DfModelRecord>();
+
+        // If hide labels only
+        if (bHideLabeled)
+        {
+            // Sort out all the selected labels
+            for (int i = 0; i < soData.record.Count; i++)
+            {
+                    if (soData.record[i].Labels.Count == 0)
+                    {
+                        FilteredModels.Add(soData.record[i]);
+                    }
+
+            }
+            //soData.LastClickedIndex = 0;
+            //CheckMeshLoaded(0);
+            //return;
+        } else
 
         // If no labels selected show the entire list
         if (SelectedLabel.Count <= 0)
         {
             FilteredModels = soData.record;
-            if (selectedIndex.Contains(soData.LastClickedIndex) == false)
-                soData.LastClickedIndex = 0;
-            return;
-        }
-
-        FilteredModels = new List<DfModelRecord>();
-        selectedIndex = new List<int>();
-
-        // Sort out all the selected labels
-        for (int i = 0; i < soData.record.Count; i++)
-        {
-            foreach (string str in SelectedLabel)
+        } else
+            // Show only labels selected
+            // Sort out all the selected labels
+            for (int i = 0; i < soData.record.Count; i++)
             {
+
                 int CountSelectedLabels = 0;
-                if (soData.record[i].Labels.Contains(str))
+
+                // Go through each selected label for each record and compare
+                foreach (string str in SelectedLabel)
                 {
-                    CountSelectedLabels++;
-                    
-                    //break;  // Just need one entry, otherwise this can add an entry multiple times
 
+                    if (soData.record[i].Labels.Contains(str))
+                    {
+                        CountSelectedLabels++;
+
+                        //break;  // Just need one entry, otherwise this can add an entry multiple times
+
+                    }
                 }
-
+                // If record contains all selected labels, then add record to filtered list
                 if (CountSelectedLabels >= SelectedLabel.Count)
                 {
                     FilteredModels.Add(soData.record[i]);
-                    if (soData.record[i].ModelID == LastClickedId)
-                    {
-                        soData.LastClickedIndex = FilteredModels.Count - 1;
-                        FoundSelectedRecordInNewFilteredList = true;
-                    }
+
                 }
             }
+
+
+
+        UpdateSelectedList(SelectedID);
+        CheckMeshLoaded(soData.LastClickedIndex);
+
+    }
+
+    void UpdateSelectedList(List<int> SelectedID)
+    {
+
+        // FIXME translate selected Index into selected IDs and pass to here.  Iterate through IDs of new filtered list to ensure
+        // each one is there.  Store the last clicked as first or last one of that array
+
+        //bool FoundSelectedRecordInNewFilteredList = false;
+
+        // Save the last clicked ID model, and see if it's still selected at the end.
+        int LastClickedId = SelectedID[0];
+        soData.LastClickedIndex = -1;
+
+        //if (selectedIndex.Contains(soData.LastClickedIndex) == false)
+        //    soData.LastClickedIndex = 0;
+
+        selectedIndex = new List<int>();
+
+        if (FilteredModels.Count <= 0)
+        {
+
+            return;
+        }
+        // Sort list
+        SelectedID.Sort();
+        int selCount = 0;
+        int filCount = 0;
+
+        while (selCount < SelectedID.Count && filCount < FilteredModels.Count)
+        {
+            if (SelectedID[selCount] == FilteredModels[filCount].ModelID)
+            {
+                selectedIndex.Add(filCount);
+                selCount++;
+            }
+
+            if (LastClickedId == FilteredModels[filCount].ModelID)
+                soData.LastClickedIndex = filCount;
+
+                filCount++;
         }
 
-       
-
-        if (FoundSelectedRecordInNewFilteredList == false)
+        if (selectedIndex.Count > 0)
+            soData.LastClickedIndex = selectedIndex[0];
+        else
             soData.LastClickedIndex = 0;
+
+        // If LastClickedIndex is still -1, set it to the first entry
+
 
 
     }
@@ -623,7 +735,7 @@ public class EditorDfModelsWindow : EditorWindow
             GUILayout.Label("CTRL");
         }
 
-        if (Event.current.control)
+        if (Event.current.shift)
         {
             GUILayout.Label("SHIFT");
         }
@@ -697,7 +809,6 @@ public class EditorDfModelsWindow : EditorWindow
             EditorGUILayout.EndHorizontal();
 
     }
-
 
 
 
@@ -787,7 +898,7 @@ public class EditorDfModelsWindow : EditorWindow
         Bounds bounds = new Bounds(Vector3.zero, Vector3.one * 20);
         if (myBareMesh.mesh != null)
             bounds.Encapsulate(myBareMesh.mesh.bounds);
-        PrevCameraPos = Vector3.forward * -1 * bounds.max.magnitude * 5.5f;
+        PrevCameraPos = Vector3.forward * -1 * bounds.max.magnitude * 3.5f;
         previewRenderUtility.camera.transform.SetPositionAndRotation(PrevCameraPos, previewRenderUtility.camera.transform.rotation);
         
         
@@ -795,8 +906,8 @@ public class EditorDfModelsWindow : EditorWindow
 
     private void OnFocus()
     {
-        OnEnable();
-        CheckMeshLoaded(-1);
+        //OnEnable();
+        CheckMeshLoaded(soData.LastClickedIndex);
     }
 
     private void OnLostFocus()
