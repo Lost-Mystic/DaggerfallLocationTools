@@ -264,8 +264,6 @@ public class EditorDfModelsWindow : EditorWindow
 
         if (FilteredModels.Count <= 0) return;
 
-        
-
     }
 
     /// <summary>
@@ -275,6 +273,8 @@ public class EditorDfModelsWindow : EditorWindow
     void CheckMeshLoaded(int NowClickedIndex)
     {
         if (soData.record.Count <= 0) return;
+        if (FilteredModels.Count <= 0) return;
+        if (selectedIndex.Count <= 0) return;
 
         //Debug.Log("Try to Check Mesh" + FilteredModels.Count.ToString() + " " + NowClickedIndex.ToString());
 
@@ -673,14 +673,18 @@ public class EditorDfModelsWindow : EditorWindow
 
     void UpdateSelectedList(List<int> SelectedID)
     {
-
-        // FIXME translate selected Index into selected IDs and pass to here.  Iterate through IDs of new filtered list to ensure
-        // each one is there.  Store the last clicked as first or last one of that array
+        if (FilteredModels.Count <= 0) return;
 
         //bool FoundSelectedRecordInNewFilteredList = false;
 
         // Save the last clicked ID model, and see if it's still selected at the end.
-        int LastClickedId = SelectedID[0];
+        int LastClickedId;
+
+        if (SelectedID.Count > 0)
+            LastClickedId = SelectedID[0];
+        else
+            LastClickedId = 0;
+
         soData.LastClickedIndex = -1;
 
         //if (selectedIndex.Contains(soData.LastClickedIndex) == false)
@@ -750,6 +754,7 @@ public class EditorDfModelsWindow : EditorWindow
             SpawnDfModel.SpawnModel(FilteredModels[soData.LastClickedIndex].ModelID);
         }
 
+        /*
         if (GUILayout.Button("Clear Entire Model Array", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
         {
             soData.record = new List<DfModelRecord>();
@@ -794,6 +799,12 @@ public class EditorDfModelsWindow : EditorWindow
             selectedIndex = new List<int>();
             selectedIndex.Add(0);
             UpdateFilteredList();
+        }
+        */
+
+        if (GUILayout.Button("Ready Database for Saving", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
+        {
+            EditorUtility.SetDirty(soData);
         }
 
         if (GUILayout.Button("Print selected items", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
