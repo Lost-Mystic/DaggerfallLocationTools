@@ -542,7 +542,7 @@ public class EditorDfModelsWindow : EditorWindow
 
             if (GUILayout.Button("X",fds))
             {
-                soData.TryToRemoveLabel(SelectedLabel[i], GetSelectedModelRecords());
+                //soData.TryToRemoveLabel(SelectedLabel[i], GetSelectedModelRecords());
                 SelectedLabel.Remove(SelectedLabel[i]);
                 SelectedLabel.TrimExcess();
                 UpdateFilteredList();
@@ -569,22 +569,11 @@ public class EditorDfModelsWindow : EditorWindow
                     }
                 }
 
-        if (GUILayout.Button(bHideLabeled?"Show All":"Hide Labeled", bHideLabeled?EditorStyles.toolbarButton:EditorStyles.whiteLabel))
-        {
-            bHideLabeled = !bHideLabeled;
-
-            if (bHideLabeled)
-                SelectedLabel = new List<string>();
-
-            UpdateFilteredList();
-            
-        }
-
-        
-
         GUILayout.FlexibleSpace();
         EditorGUILayout.EndHorizontal();
     }
+
+    
 
 
     /// <summary>
@@ -723,8 +712,74 @@ public class EditorDfModelsWindow : EditorWindow
 
         // If LastClickedIndex is still -1, set it to the first entry
 
+    }
+
+    bool bShowLabelListArea = false;
+
+    void PrintLabelOptionsBar()
+    {
+        EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(false));
+
+        GUILayout.BeginHorizontal();
+
+        if (GUILayout.Button(bHideLabeled ? "Show All" : "Hide Labeled", bHideLabeled ? EditorStyles.toolbarButton : EditorStyles.whiteLabel))
+        {
+            bHideLabeled = !bHideLabeled;
+
+            if (bHideLabeled)
+                SelectedLabel = new List<string>();
+
+            UpdateFilteredList();
+
+        }
+
+        //bHideLabeled = GUILayout.Toggle(bHideLabeled, "Hide Labeled Models");
+
+        bShowLabelListArea = GUILayout.Toggle(bShowLabelListArea, "Show Label List");
+
+        GUILayout.EndHorizontal();
+
+        EditorGUILayout.EndVertical();
+    }
+
+    Vector2 CollapseableLabelListScrollPos = new Vector2();
+
+    void PrintCollapseableLabelList()
+    {
+        float viewWidth = EditorGUIUtility.currentViewWidth;
+
+        EditorGUILayout.BeginVertical();
+
+        CollapseableLabelListScrollPos = GUILayout.BeginScrollView(CollapseableLabelListScrollPos);
+        GUILayout.BeginHorizontal(GUILayout.MaxWidth(viewWidth));
+        //GUILayout.BeginArea(new Rect(0, 450, viewWidth, 80));
+
+        foreach (string s in soData.Labels)
+        {
+            if (GUILayout.Button(s, EditorStyles.helpBox, GUILayout.ExpandWidth(true)))
+            {
+                if (!SelectedLabel.Contains(s))
+                {
+                    SelectedLabel.Add(s);
+                    
+                } else
+                {
+                    SelectedLabel.Remove(s);
+                }
+                UpdateFilteredList();
+
+            }
+        }
+
+        
+        //GUILayout.EndArea();
+        GUILayout.EndHorizontal();
+        GUILayout.EndScrollView();
+
+        EditorGUILayout.EndVertical();
 
 
+       
     }
 
     /// <summary>
@@ -817,7 +872,14 @@ public class EditorDfModelsWindow : EditorWindow
             }
             Debug.Log("---===END Selected Index===---");
         }
-            EditorGUILayout.EndHorizontal();
+
+        if (GUILayout.Button("Refresh entire label listings", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
+        {
+            soData.GetAllCurrentLabels();
+        }
+
+        
+        EditorGUILayout.EndHorizontal();
 
     }
 
@@ -844,6 +906,11 @@ public class EditorDfModelsWindow : EditorWindow
         PrintLabelTypeField();
 
         PrintCurrentSelectedLabels();
+
+        PrintLabelOptionsBar();
+
+        if (bShowLabelListArea)
+            PrintCollapseableLabelList();
 
         PrintDebugEditorButtons();
 

@@ -126,15 +126,16 @@ public class SoModelRecords : ScriptableObject
         labelToAdd = labelToAdd.ToLower();
         bool SuccessAddingLabel = false;
 
-
-
-
         for (int i = 0; i < modelRecords.Count; i++ )
         {
             if (modelRecords[i].Labels.Contains(labelToAdd))
                 continue;
 
             modelRecords[i].AddLabel(labelToAdd);
+
+            if (!Labels.Contains(labelToAdd))
+                Labels.Add(labelToAdd);
+
             SuccessAddingLabel = true;
         }
 
@@ -148,7 +149,17 @@ public class SoModelRecords : ScriptableObject
 
         for (int i = 0; i < modelRecords.Count; i++)
         {
+            Debug.Log("Count " + GetOnlyRecordsByLabels(labelToRemove).Count.ToString());
+            if (GetOnlyRecordsByLabels(labelToRemove).Count <= 0)
+            {
+
+                Labels.Remove(labelToRemove);
+            }
+
             modelRecords[i].RemoveLabel(labelToRemove);
+
+
+
             SuccessRemovingLabel = true;
         }
 
@@ -156,7 +167,21 @@ public class SoModelRecords : ScriptableObject
     }
 
 
+    public void GetAllCurrentLabels()
+    {
+        Labels = new List<string>();
 
+        foreach (DfModelRecord d in record)
+        {
+            foreach (string s in d.Labels)
+            {
+                if (Labels.Contains(s) == false)
+                {
+                    Labels.Add(s);
+                }
+            }
+        }
+    }
 
     /// <summary>
     /// 
@@ -189,23 +214,25 @@ public class SoModelRecords : ScriptableObject
     }
 
 
-    /// <summary>
-    /// Returns the sorted list of models with those labels or the entire list if no selected labels.
-    /// </summary>
-    /// <param name="labels"></param>
-    /// <returns></returns>
-    public List<DfModelRecord> GetOnlyRecordsByLabels(string[] labels)
+    public List<DfModelRecord> GetOnlyRecordsByLabels(string label)
+    {
+        string[] str = new string[1];
+
+        str[0] = label;
+
+        return GetOnlyRecordsByLabels(str);
+    }
+
+
+        /// <summary>
+        /// Returns the sorted list of models with those labels or the entire list if no selected labels.
+        /// </summary>
+        /// <param name="labels"></param>
+        /// <returns></returns>
+        public List<DfModelRecord> GetOnlyRecordsByLabels(string[] labels)
     {
         List<DfModelRecord> sortedRecords = new List<DfModelRecord>();
         string TestString;
-
-        /*
-        if (labels.Length <= 0)
-        {
-            sortedRecords = record;
-            return sortedRecords;
-        }
-        */
 
         // Make all strings lower case
         for (int i = 0; i < labels.Length; i++ )
