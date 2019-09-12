@@ -86772,6 +86772,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - door
+    - dungeon
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100696,6 +100697,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - plot
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100706,6 +100708,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
+    - plot
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100716,6 +100720,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100736,6 +100741,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100756,6 +100762,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - plot
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100846,6 +100854,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
+    - plot
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100856,6 +100866,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100866,6 +100877,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100876,6 +100888,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100886,6 +100899,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100896,6 +100910,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100906,6 +100921,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100916,6 +100932,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100926,6 +100943,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100936,6 +100954,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100946,6 +100966,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100976,6 +100997,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100986,6 +101008,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
+    - cave
+    - stairs
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100996,6 +101021,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - plot
+    - cave
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101006,6 +101034,10 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - cave
+    - giantroomchunk
+    - hall
+    - plot
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101016,6 +101048,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - deadend
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101037,6 +101071,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
+    - plot
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101080,6 +101117,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101100,6 +101138,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101110,6 +101149,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101120,6 +101160,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101130,6 +101171,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101181,6 +101223,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101191,6 +101234,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101343,6 +101387,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101353,6 +101398,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101363,6 +101409,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101373,6 +101421,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101383,6 +101433,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101393,6 +101445,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101403,6 +101457,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101413,6 +101468,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
+    - slope
+    - ramp
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101423,6 +101481,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101433,6 +101492,10 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - plot
+    - slope
+    - ramp
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101473,6 +101536,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101483,6 +101547,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101493,6 +101558,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101503,6 +101569,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101513,6 +101580,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101523,6 +101591,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101533,6 +101602,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101543,6 +101613,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101553,6 +101624,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - plot
+    - building
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101563,6 +101637,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101573,6 +101649,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101633,6 +101711,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
+    - room
+    - plot
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101713,6 +101794,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101723,6 +101806,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101733,6 +101817,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - pit
+    - deadend
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101743,6 +101830,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101753,6 +101841,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101834,6 +101923,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - stairs
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101844,6 +101934,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101854,6 +101945,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101864,6 +101956,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101874,6 +101967,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101884,6 +101978,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101894,6 +101989,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101904,6 +102000,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101914,6 +102011,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101924,6 +102022,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101934,6 +102033,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103111,4 +103211,4 @@ MonoBehaviour:
     SuggestedFlats: []
     SuggestedEnemies: []
   Labels: []
-  LastClickedIndex: 8628
+  LastClickedIndex: 8612
