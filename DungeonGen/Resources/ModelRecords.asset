@@ -74550,7 +74550,8 @@ MonoBehaviour:
     TestModel: {fileID: 0}
     ExtendedModel: 1
     ModelName: 
-    Labels: []
+    Labels:
+    - bushfence
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101140,4 +101141,4 @@ MonoBehaviour:
     SuggestedFlats: []
     SuggestedEnemies: []
   Labels: []
-  LastClickedIndex: 188
+  LastClickedIndex: 0
