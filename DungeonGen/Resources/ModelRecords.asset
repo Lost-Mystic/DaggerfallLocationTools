@@ -82407,6 +82407,7 @@ MonoBehaviour:
     - stairs
     - cs_test
     - sd_df51
+    - sc_arc_b
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -85585,6 +85586,8 @@ MonoBehaviour:
     - pit
     - cs_test
     - sd_df53
+    - sc_door
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -85785,6 +85788,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -85808,6 +85812,7 @@ MonoBehaviour:
     - stairs
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -85832,6 +85837,7 @@ MonoBehaviour:
     - room
     - cs_test
     - sd_df71
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86040,6 +86046,7 @@ MonoBehaviour:
     - pit
     - cs_test
     - sd_df72
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86163,6 +86170,7 @@ MonoBehaviour:
     - room
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86346,6 +86354,7 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df54
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86528,6 +86537,8 @@ MonoBehaviour:
     - stairs
     - cs_test
     - sd_df71
+    - sc_arc
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86564,6 +86575,7 @@ MonoBehaviour:
     - stairs
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86624,6 +86636,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df77
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86648,6 +86661,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df77
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86683,6 +86697,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df77
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86696,6 +86711,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df78
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86731,6 +86747,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df77
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86777,6 +86794,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df77
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86801,6 +86819,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df79
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86816,6 +86835,7 @@ MonoBehaviour:
     - cs_test
     - sd_df55
     - 
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86831,6 +86851,7 @@ MonoBehaviour:
     - cs_test
     - sd_df54
     - 
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86867,6 +86888,8 @@ MonoBehaviour:
     - cs_test
     - sd_df55
     - 
+    - sc_arc
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87047,6 +87070,7 @@ MonoBehaviour:
     - cs_test
     - sd_df61
     - 
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87082,6 +87106,8 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df63
+    - sc_arc
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87251,6 +87277,7 @@ MonoBehaviour:
     - cs_test
     - sd_df65
     - 
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87342,6 +87369,7 @@ MonoBehaviour:
     - cs_test
     - sd_df65
     - 
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87498,6 +87526,7 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df55
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87512,6 +87541,7 @@ MonoBehaviour:
     - cs_test
     - sd_df55
     - 
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87614,6 +87644,7 @@ MonoBehaviour:
     - cs_test
     - sd_df55
     - 
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87875,6 +87906,7 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df63
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87988,6 +88020,7 @@ MonoBehaviour:
     - deadend
     - cs_test
     - sd_df63
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88026,6 +88059,7 @@ MonoBehaviour:
     - cs_test
     - sd_df63
     - sd_df56
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88263,6 +88297,7 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df65
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88606,6 +88641,7 @@ MonoBehaviour:
     - deadend
     - sd_df55
     - sd_df56
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88645,6 +88681,8 @@ MonoBehaviour:
     - cs_test
     - sd_df55
     - 
+    - sc_arc
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88780,6 +88818,8 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df55
+    - sc_open1w2h
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88818,6 +88858,9 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df55
+    - sc_door
+    - sc_open1w2h
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88917,6 +88960,7 @@ MonoBehaviour:
     - cs_test
     - deadend
     - sd_df63
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89118,6 +89162,9 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df63
+    - sc_arc
+    - sc_open1w2h
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89200,6 +89247,7 @@ MonoBehaviour:
     - cs_test
     - deadend
     - sd_df65
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89814,6 +89862,8 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df53
+    - sc_arc
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89893,6 +89943,7 @@ MonoBehaviour:
     - room
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90049,6 +90100,8 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df76
+    - sc_arc
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90131,6 +90184,7 @@ MonoBehaviour:
     - window
     - cs_test
     - sd_df53
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90144,6 +90198,8 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df76
+    - sc_open1w2h
+    - window
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90255,6 +90311,7 @@ MonoBehaviour:
     - room
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90388,6 +90445,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df79
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90604,6 +90662,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90856,6 +90915,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90868,6 +90928,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_arc
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90900,6 +90962,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91221,6 +91284,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91283,6 +91347,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91385,6 +91450,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df54
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91418,6 +91484,7 @@ MonoBehaviour:
     - cs_test
     - deadend
     - sd_df54
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91440,6 +91507,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df54
+    - sc_taperlower
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91791,6 +91860,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df54
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91833,6 +91903,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df54
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91846,6 +91917,8 @@ MonoBehaviour:
     - cs_test
     - transition
     - sd_df54
+    - sc_taperlower
+    - sc_taperthin
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91860,6 +91933,8 @@ MonoBehaviour:
     - cs_test
     - sd_df54
     - sd_df55
+    - sc_taperlower
+    - sc_arc
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91875,6 +91950,8 @@ MonoBehaviour:
     - sd_df54
     - cave
     - sd_df77
+    - sc_taperlower
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91889,6 +91966,8 @@ MonoBehaviour:
     - cs_test
     - sd_df54
     - sd_df71
+    - sc_taperlower
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91901,6 +91980,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df54
+    - sc_taperlower
+    - window
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91913,6 +91994,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df54
+    - window
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91946,6 +92029,7 @@ MonoBehaviour:
     - cs_test
     - sd_df54
     - sd_df53
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92018,6 +92102,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df61
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92280,6 +92365,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df61
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92473,6 +92559,8 @@ MonoBehaviour:
     - cs_test
     - transition
     - sd_df61
+    - sc_taperlower
+    - sc_taperthin
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92487,6 +92575,8 @@ MonoBehaviour:
     - transition
     - sd_df61
     - sd_df63
+    - sc_taperlower
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92502,6 +92592,8 @@ MonoBehaviour:
     - cave
     - sd_df61
     - sd_df76
+    - sc_taperlower
+    - sc_cavetri
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92516,6 +92608,8 @@ MonoBehaviour:
     - transition
     - sd_df61
     - sd_df71
+    - sc_taperlower
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92569,6 +92663,7 @@ MonoBehaviour:
     - cs_test
     - sd_df61
     - sd_df63
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92621,6 +92716,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df61
+    - sc_taperlower
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92694,6 +92791,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93108,6 +93207,8 @@ MonoBehaviour:
     - cs_test
     - transition
     - sd_df65
+    - sc_taperlower
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93133,6 +93234,8 @@ MonoBehaviour:
     - transition
     - sd_df65
     - sd_df71
+    - sc_box
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93185,6 +93288,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_taperlower
+    - window
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93247,6 +93352,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93319,6 +93425,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
+    - sc_open1w2d
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93341,6 +93449,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df49
+    - sc_door
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93533,6 +93643,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93625,6 +93736,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93707,6 +93819,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93729,6 +93842,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93811,6 +93925,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93903,6 +94018,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93965,6 +94081,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94061,6 +94178,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94243,6 +94361,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_open1w2h
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94305,6 +94425,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df49
+    - sc_door
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94337,6 +94459,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94349,6 +94472,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94381,6 +94505,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_taperlower
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94403,6 +94528,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_taperlower
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94415,6 +94542,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_taperlower
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94427,6 +94556,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94439,6 +94569,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94575,6 +94706,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94617,6 +94749,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94659,6 +94792,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - giantroomchunk
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94701,6 +94835,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94753,6 +94888,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94845,6 +94981,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94878,6 +95015,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94900,6 +95038,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df81
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94942,6 +95081,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df81
+    - sc_box
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95074,6 +95215,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95116,6 +95258,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95248,6 +95392,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95330,6 +95475,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_box
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95402,6 +95549,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95424,6 +95573,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95506,6 +95656,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95548,6 +95699,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95571,6 +95724,7 @@ MonoBehaviour:
     - cs_test
     - deadend
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95704,6 +95858,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95746,6 +95901,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95768,6 +95924,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95870,6 +96027,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95892,6 +96050,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96054,6 +96214,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96086,6 +96247,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96118,6 +96281,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96259,6 +96423,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
+    - sc_door
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96471,6 +96637,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96553,6 +96721,9 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_door
+    - sc_box
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96625,6 +96796,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_open1w2h
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96707,6 +96880,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_door
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96739,6 +96914,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_door
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96781,6 +96958,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - pit
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96793,6 +96972,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96805,6 +96985,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96857,6 +97038,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96869,6 +97051,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - pit
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96921,6 +97105,9 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
+    - sc_door
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97153,6 +97340,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - pit
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97175,6 +97364,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_box
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97207,6 +97398,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_open1w2h
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97269,6 +97461,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97511,6 +97704,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_box
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97643,6 +97838,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97675,6 +97871,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df71
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97717,6 +97914,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97749,6 +97947,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df46
+    - sc_taperthin
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97761,6 +97960,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df46
+    - sc_taperthin
+    - stairs
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97863,6 +98064,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df46
+    - sc_taperthin
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97876,6 +98078,8 @@ MonoBehaviour:
     - cs_test
     - transition
     - sd_df46
+    - sc_taperthin
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97899,6 +98103,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df81
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98101,6 +98306,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df81
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98283,6 +98489,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df81
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98505,6 +98712,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df81
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98627,6 +98835,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99059,6 +99268,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99341,6 +99551,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99363,6 +99574,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99375,6 +99587,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99417,6 +99630,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99509,6 +99723,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99591,6 +99806,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99673,6 +99889,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99695,6 +99912,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99767,6 +99985,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99779,6 +99998,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99881,6 +100101,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100003,6 +100224,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100255,6 +100477,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100377,6 +100600,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100419,6 +100643,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100491,6 +100716,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100513,6 +100739,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100525,6 +100752,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100597,6 +100825,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100659,6 +100888,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100761,6 +100991,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100813,6 +101044,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df63
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100895,6 +101127,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df65
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100967,6 +101200,7 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101099,6 +101333,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - sd_df53
+    - sc_door
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101360,6 +101596,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101381,6 +101618,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
+    - sc_door
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101412,6 +101651,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101597,6 +101837,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101628,6 +101869,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101669,6 +101911,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101768,6 +102011,7 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101792,6 +102036,7 @@ MonoBehaviour:
     - room
     - cs_test
     - sd_df54
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101896,6 +102141,7 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102055,6 +102301,7 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df77
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102430,6 +102677,8 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df54
+    - sc_door
+    - sc_box_b
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102467,6 +102716,7 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df54
+    - sc_box_b
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102493,6 +102743,7 @@ MonoBehaviour:
     - giantroomchunk
     - cs_test
     - sd_df54
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102544,6 +102795,7 @@ MonoBehaviour:
     - ramp
     - cs_test
     - sd_df54
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102589,6 +102841,7 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
+    - sc_arcround
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102635,6 +102888,7 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df55
+    - sc_arcround
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102854,6 +103108,7 @@ MonoBehaviour:
     - pit
     - cs_test
     - sd_df83
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102867,6 +103122,7 @@ MonoBehaviour:
     - hall
     - cs_test
     - sd_df83
+    - sc_box
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102904,6 +103160,7 @@ MonoBehaviour:
     - room
     - cs_test
     - sd_df83
+    - sc_door
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103500,6 +103757,8 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
+    - sc_sewer
+    - sc_sewertall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103512,6 +103771,7 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
+    - sc_sewertall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103887,6 +104147,7 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
+    - sc_sewer
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103910,6 +104171,8 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
+    - sc_sewer
+    - sc_crawl
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103933,6 +104196,7 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
+    - sc_sewer
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104324,6 +104588,7 @@ MonoBehaviour:
     SuggestedFlats: []
     SuggestedEnemies: []
   Labels:
+  - 
   - altar
   - anvil
   - arch
@@ -104375,6 +104640,20 @@ MonoBehaviour:
   - roof
   - room
   - ruins
+  - sc_arc
+  - sc_arc_b
+  - sc_arcround
+  - sc_box
+  - sc_box_b
+  - sc_cavetri
+  - sc_crawl
+  - sc_door
+  - sc_open1w2d
+  - sc_open1w2h
+  - sc_sewer
+  - sc_sewertall
+  - sc_taperlower
+  - sc_taperthin
   - sd_df31
   - sd_df46
   - sd_df49
@@ -104415,5 +104694,4 @@ MonoBehaviour:
   - weapon
   - windmill
   - window
-  - 
-  LastClickedIndex: 64
+  LastClickedIndex: 716

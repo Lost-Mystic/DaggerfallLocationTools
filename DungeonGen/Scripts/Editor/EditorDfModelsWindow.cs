@@ -20,7 +20,7 @@ public class EditorDfModelsWindow : EditorWindow
     List<DfModelRecord> FilteredModels;
 
     float dimTopLabelsHeight = 20f;
-    float dimFilteredListWidth = 80f;
+    float dimFilteredListWidth = 100f;
     float dimPreviewFilteredHeight = 200f;
     float dimPreviewFilteredHeightPercent = 0.5f;       // What height percentage of the window does it take up
     float dimLabelEntryHeight = 20f;                    // Height of the label entry section
