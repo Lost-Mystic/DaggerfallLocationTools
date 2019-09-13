@@ -718,6 +718,8 @@ public class EditorDfModelsWindow : EditorWindow
 
     void PrintLabelOptionsBar()
     {
+
+
         EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(false));
 
         GUILayout.BeginHorizontal();
@@ -748,6 +750,10 @@ public class EditorDfModelsWindow : EditorWindow
     {
         float viewWidth = EditorGUIUtility.currentViewWidth;
 
+        GUIStyle gsLabelStyle = EditorStyles.helpBox;
+        gsLabelStyle.stretchWidth = true;
+        gsLabelStyle.fixedWidth = 0;
+
         EditorGUILayout.BeginVertical();
 
         CollapseableLabelListScrollPos = GUILayout.BeginScrollView(CollapseableLabelListScrollPos);
@@ -756,7 +762,7 @@ public class EditorDfModelsWindow : EditorWindow
 
         foreach (string s in soData.Labels)
         {
-            if (GUILayout.Button(s, EditorStyles.helpBox, GUILayout.ExpandWidth(true)))
+            if (GUILayout.Button(s, gsLabelStyle, GUILayout.ExpandWidth(true)))
             {
                 if (!SelectedLabel.Contains(s))
                 {
@@ -880,6 +886,10 @@ public class EditorDfModelsWindow : EditorWindow
 
         
         EditorGUILayout.EndHorizontal();
+
+
+        
+        
 
     }
 

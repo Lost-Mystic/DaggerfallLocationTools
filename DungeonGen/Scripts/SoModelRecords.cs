@@ -181,6 +181,7 @@ public class SoModelRecords : ScriptableObject
                 }
             }
         }
+        Labels.Sort();
     }
 
     /// <summary>
