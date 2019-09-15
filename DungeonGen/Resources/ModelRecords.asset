@@ -2388,6 +2388,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2398,6 +2399,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2408,6 +2410,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2418,6 +2421,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2428,6 +2432,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2438,6 +2443,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2448,6 +2454,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2688,6 +2695,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2698,6 +2706,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2758,6 +2767,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - fence
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2768,6 +2778,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - fence
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2778,6 +2789,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - fence
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2788,6 +2800,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - fence
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2808,6 +2821,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2818,6 +2832,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2828,6 +2843,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -2838,6 +2854,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3227,7 +3244,8 @@ MonoBehaviour:
     ExtendedModel: 1
     ModelName: 
     Labels:
-    - building
+    - baduv
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3518,6 +3536,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3548,6 +3567,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3558,6 +3578,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3598,6 +3619,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3678,6 +3700,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3688,6 +3711,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -3708,6 +3732,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -4078,6 +4103,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -4088,6 +4114,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -4128,6 +4155,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - building
+    - townwall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92201,6 +92229,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92211,6 +92240,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
+    - window
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92244,6 +92275,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_arch"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92258,6 +92290,7 @@ MonoBehaviour:
     - "\u03C9c_box"
     - "\u03C9c_arch"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92268,6 +92301,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92291,6 +92325,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_arch"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93362,6 +93397,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_taper"
     - "\u03C9s_dun01"
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95792,6 +95828,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95805,6 +95842,8 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
+    - prison
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95825,6 +95864,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95848,6 +95888,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
+    - prison
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96168,6 +96210,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun11"
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96188,6 +96231,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96198,6 +96242,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96208,6 +96253,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96221,6 +96267,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun11"
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96231,6 +96278,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96241,6 +96289,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96251,6 +96300,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96261,6 +96311,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96271,6 +96322,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96281,6 +96333,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96291,6 +96344,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96301,6 +96355,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96314,6 +96369,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun11"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96324,6 +96380,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96335,6 +96392,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - deadend
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96348,6 +96406,8 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun11"
+    - hall
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96358,6 +96418,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - stairs
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96371,6 +96433,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun09"
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96381,6 +96444,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96391,6 +96455,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96401,6 +96466,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96415,6 +96481,7 @@ MonoBehaviour:
     - "\u03C9c_box"
     - "\u03C9c_door"
     - "\u03C9s_dun09"
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96425,6 +96492,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96435,6 +96503,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96445,6 +96514,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96455,6 +96525,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96465,6 +96536,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96475,6 +96547,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96485,6 +96558,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96495,6 +96569,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96505,6 +96580,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - deadend
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96515,6 +96592,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - deadend
+    - fakedoor
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96525,6 +96605,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - fakedoor
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96535,6 +96617,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - fakedoor
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96548,6 +96632,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun04"
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96558,6 +96643,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96568,6 +96654,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96578,6 +96665,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96592,6 +96680,7 @@ MonoBehaviour:
     - "\u03C9c_box"
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96602,6 +96691,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96612,6 +96702,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96622,6 +96713,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96632,6 +96724,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96642,6 +96735,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96652,6 +96746,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96662,6 +96757,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96672,6 +96768,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96682,6 +96779,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - deadend
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96692,6 +96791,9 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - deadend
+    - fakedoor
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96702,6 +96804,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - hall
+    - fakedoor
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96712,6 +96816,8 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - fakedoor
+    - hall
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97168,6 +97274,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - deadend
+    - stairs
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97178,6 +97285,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97191,6 +97299,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun11"
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97201,6 +97310,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97211,6 +97321,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97221,6 +97332,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97234,6 +97346,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun11"
+    - transition
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97257,6 +97370,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun11"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97524,6 +97638,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - stairs
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97534,6 +97649,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97547,6 +97663,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun04"
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97557,6 +97674,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97567,6 +97685,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97581,6 +97700,7 @@ MonoBehaviour:
     - "\u03C9c_box"
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - slope
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97614,6 +97734,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97957,6 +98078,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98278,6 +98400,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98348,6 +98471,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98395,6 +98519,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98405,6 +98530,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98684,6 +98810,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98751,6 +98878,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98781,6 +98909,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98794,6 +98923,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun08"
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98804,6 +98934,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99048,6 +99179,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99058,6 +99190,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99068,6 +99201,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99078,6 +99212,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99088,6 +99223,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99138,6 +99274,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - pit
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99171,6 +99308,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun11"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99181,6 +99319,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99191,6 +99330,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99204,6 +99344,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_box"
     - "\u03C9s_dun11"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99214,6 +99355,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99224,6 +99366,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99234,6 +99377,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99247,6 +99391,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99257,6 +99402,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99267,6 +99413,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99436,6 +99583,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun09"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99446,6 +99594,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99456,6 +99605,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99466,6 +99616,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99476,6 +99627,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99486,6 +99638,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99496,6 +99649,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99506,6 +99660,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99516,6 +99671,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99526,6 +99682,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99536,6 +99693,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99546,6 +99704,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99556,6 +99715,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99566,6 +99726,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99576,6 +99737,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99586,6 +99748,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99596,6 +99759,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99606,6 +99770,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99616,6 +99781,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99626,6 +99792,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99639,6 +99806,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun09"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99649,6 +99817,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99659,6 +99828,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99669,6 +99839,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99679,6 +99850,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99689,6 +99861,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99699,6 +99872,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99709,6 +99883,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99719,6 +99894,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99729,6 +99905,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99739,6 +99916,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99749,6 +99927,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99759,6 +99938,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99769,6 +99949,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99779,6 +99960,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99789,6 +99971,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99799,6 +99982,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99809,6 +99993,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99822,6 +100007,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun09"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99832,6 +100018,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99842,6 +100029,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99852,6 +100040,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99862,6 +100051,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99872,6 +100062,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99882,6 +100073,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99892,6 +100084,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99902,6 +100095,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99912,6 +100106,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99922,6 +100117,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99932,6 +100128,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99942,6 +100139,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99952,6 +100150,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99962,6 +100161,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99972,6 +100172,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99982,6 +100183,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99992,6 +100194,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100002,6 +100205,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100012,6 +100216,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100022,6 +100227,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100032,6 +100238,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100045,6 +100252,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun09"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100055,6 +100263,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100065,6 +100274,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100075,6 +100285,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100085,6 +100296,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100095,6 +100307,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100105,6 +100318,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100115,6 +100329,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100125,6 +100340,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100135,6 +100351,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100145,6 +100362,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100155,6 +100373,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100168,6 +100387,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100178,6 +100398,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100188,6 +100409,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100198,6 +100420,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100208,6 +100431,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100218,6 +100442,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100228,6 +100453,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100238,6 +100464,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100248,6 +100475,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100258,6 +100486,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100268,6 +100497,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100278,6 +100508,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100288,6 +100519,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100298,6 +100530,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100308,6 +100541,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100318,6 +100552,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100328,6 +100563,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100338,6 +100574,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100348,6 +100585,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100358,6 +100596,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100368,6 +100607,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100378,6 +100618,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100388,6 +100629,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100398,6 +100640,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100408,6 +100651,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100418,6 +100662,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100428,6 +100673,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100438,6 +100684,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100448,6 +100695,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100458,6 +100706,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100468,6 +100717,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100478,6 +100728,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100488,6 +100739,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100498,6 +100750,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100508,6 +100761,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100518,6 +100772,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100528,6 +100783,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100538,6 +100794,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100548,6 +100805,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100558,6 +100816,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100568,6 +100827,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100578,6 +100838,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100588,6 +100849,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100601,6 +100863,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100611,6 +100874,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100621,6 +100885,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100631,6 +100896,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100641,6 +100907,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100651,6 +100918,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100661,6 +100929,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100671,6 +100940,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100681,6 +100951,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100691,6 +100962,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100701,6 +100973,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100711,6 +100984,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100721,6 +100995,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100731,6 +101006,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100741,6 +101017,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100751,6 +101028,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100761,6 +101039,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100771,6 +101050,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100781,6 +101061,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100791,6 +101072,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100801,6 +101083,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100811,6 +101094,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100821,6 +101105,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100831,6 +101116,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100841,6 +101127,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100851,6 +101138,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100861,6 +101149,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100871,6 +101160,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100884,6 +101174,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100894,6 +101185,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - door
+    - entrance
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100907,6 +101199,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100920,6 +101213,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100930,6 +101224,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100940,6 +101235,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100950,6 +101246,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100963,6 +101260,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100973,6 +101271,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100983,6 +101282,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100993,6 +101293,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101003,6 +101304,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101013,6 +101315,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101023,6 +101326,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101033,6 +101337,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101043,6 +101348,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101056,6 +101362,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101066,6 +101373,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101076,6 +101384,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101086,6 +101395,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101096,6 +101406,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101106,6 +101417,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101116,6 +101428,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101126,6 +101439,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101139,6 +101453,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun08"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101149,6 +101464,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101159,6 +101475,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101169,6 +101486,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101179,6 +101497,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101189,6 +101508,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101199,6 +101519,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101209,6 +101530,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101222,6 +101544,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101232,6 +101555,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101245,6 +101569,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101255,6 +101580,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101265,6 +101591,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101275,6 +101602,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101285,6 +101613,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101295,6 +101624,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101305,6 +101635,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101318,6 +101649,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101331,6 +101663,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101341,6 +101674,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101351,6 +101685,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101361,6 +101696,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101371,6 +101707,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101381,6 +101718,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101391,6 +101729,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101401,6 +101740,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101411,6 +101751,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101421,6 +101762,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101434,6 +101776,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun08"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101444,6 +101787,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101454,6 +101798,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101464,6 +101809,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101474,6 +101820,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101484,6 +101831,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101494,6 +101842,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101504,6 +101853,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101514,6 +101864,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101524,6 +101875,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101534,6 +101886,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101544,6 +101897,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101557,6 +101911,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101567,6 +101922,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101577,6 +101933,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101587,6 +101944,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101597,6 +101955,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101607,6 +101966,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101617,6 +101977,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101627,6 +101988,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101637,6 +101999,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101647,6 +102010,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101657,6 +102021,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101667,6 +102032,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101677,6 +102043,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101687,6 +102054,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101697,6 +102065,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101707,6 +102076,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101717,6 +102087,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101727,6 +102098,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101737,6 +102109,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101747,6 +102120,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101757,6 +102131,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101767,6 +102142,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101777,6 +102153,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101787,6 +102164,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101797,6 +102175,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101810,6 +102189,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun08"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101820,6 +102200,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101830,6 +102211,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101840,6 +102222,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101850,6 +102233,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101860,6 +102244,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101870,6 +102255,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101880,6 +102266,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101890,6 +102277,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101900,6 +102288,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101910,6 +102299,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101920,6 +102310,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101933,6 +102324,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101943,6 +102335,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101953,6 +102346,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101963,6 +102357,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101976,6 +102371,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101986,6 +102382,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101996,6 +102393,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102006,6 +102404,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102016,6 +102415,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102026,6 +102426,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102036,6 +102437,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102049,6 +102451,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102059,6 +102462,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102072,6 +102476,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102085,6 +102490,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun08"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102095,6 +102501,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102105,6 +102512,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102115,6 +102523,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102125,6 +102534,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102135,6 +102545,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102145,6 +102556,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102158,6 +102570,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun08"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102168,6 +102581,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102178,6 +102592,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102188,6 +102603,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102198,6 +102614,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102208,6 +102625,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102221,6 +102639,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102231,6 +102650,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102241,6 +102661,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102251,6 +102672,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102261,6 +102683,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102271,6 +102694,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102281,6 +102705,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102291,6 +102716,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102301,6 +102727,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102311,6 +102738,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102324,6 +102752,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102334,6 +102763,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102344,6 +102774,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102354,6 +102785,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102364,6 +102796,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102377,6 +102810,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun04"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102387,6 +102821,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102397,6 +102832,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102407,6 +102843,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102417,6 +102854,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102427,6 +102865,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102437,6 +102876,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102447,6 +102887,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102460,6 +102901,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun08"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102470,6 +102912,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102480,6 +102923,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102490,6 +102934,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102500,6 +102945,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102510,6 +102956,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102520,6 +102967,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102533,6 +102981,7 @@ MonoBehaviour:
     - cs_test
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102543,6 +102992,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102553,6 +103003,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102563,6 +103014,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102573,6 +103025,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102583,6 +103036,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102593,6 +103047,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102603,6 +103058,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102613,6 +103069,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102623,6 +103080,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102633,6 +103091,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102643,6 +103102,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102653,6 +103113,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102667,6 +103128,7 @@ MonoBehaviour:
     - pit
     - "\u03C9c_door"
     - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102677,6 +103139,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102687,6 +103150,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102697,6 +103161,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102707,6 +103172,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102717,6 +103183,7 @@ MonoBehaviour:
     ModelName: 
     Labels:
     - dungeon
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -106037,4 +106504,4 @@ MonoBehaviour:
   - "\u03C9s_sanct3"
   - "\u03C9s_wood"
   - "\u03C9s_mill"
-  LastClickedIndex: 10038
+  LastClickedIndex: 35

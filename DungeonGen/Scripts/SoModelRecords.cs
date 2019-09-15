@@ -17,7 +17,6 @@ public class SoModelRecords : ScriptableObject
     public int LastClickedIndex = 0;
 
 
-
     void InitArchFile()
     {
         if (arch3dFile == null)

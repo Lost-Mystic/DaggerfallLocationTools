@@ -26,6 +26,9 @@ public class EditorDfModelsWindow : EditorWindow
     float dimLabelEntryHeight = 20f;                    // Height of the label entry section
     float dimLabelListingHeight = 60f;                  // Suggested height of the label listings (they'll wrap and take as much as required
 
+    float FilteredModelListEntryWidth = 60f;
+    float FilteredModelListEntryHeight = 20f;
+
     /// <summary>
     /// The text field current contents users can type the Label entry into
     /// </summary>
@@ -46,10 +49,10 @@ public class EditorDfModelsWindow : EditorWindow
     /// <summary>
     /// Holds the rect information for the filtered list scrollable window
     /// </summary>
-    Rect rScrollWindow;
+    Rect rFilteredItemsScrollWindow;
 
     // Scroll position for the scroll bar
-    Vector2 ScrollPosition;
+    Vector2 FilteredModelListScrollPosition;
     private Vector3 PrevCameraPos = Vector3.forward * -5;
 
 
@@ -59,10 +62,10 @@ public class EditorDfModelsWindow : EditorWindow
     /// </summary>
     void PrintFilteredModelListToWindow()
     {
-        
-        GUILayout.BeginVertical(GUILayout.Width(dimFilteredListWidth), GUILayout.Height(dimPreviewFilteredHeight));
 
-        ScrollPosition = GUILayout.BeginScrollView(ScrollPosition);
+        GUILayout.BeginVertical(GUILayout.Width(dimFilteredListWidth)/*, GUILayout.Height(dimPreviewFilteredHeight)*/);
+
+        FilteredModelListScrollPosition = GUILayout.BeginScrollView(FilteredModelListScrollPosition);
 
         // If there are no records listed, and no labels selected, the list should show default.
         if (FilteredModels.Count == 0 && SelectedLabel.Count <= 0)
@@ -70,41 +73,30 @@ public class EditorDfModelsWindow : EditorWindow
             FilteredModels = soData.record;
             UpdateFilteredList();
         }
-        
+
         if (FilteredModels.Count == 0)
-            GUILayout.Label("No items.",GUILayout.Height(dimPreviewFilteredHeight));
-
-
-        //SerializedObject serializedRecords = new SerializedObject(soData);
+            GUILayout.Label("No items.", GUILayout.Height(dimPreviewFilteredHeight));
 
         Color color_default = GUI.backgroundColor;
         GUIStyle gsSelected = EditorStyles.label;
         gsSelected.fontStyle = FontStyle.Bold;
         GUIStyle gsCurrent = GUIStyle.none;
-        float EntryWidth = 60f;
-        float EntryHeight = 20f;
+
 
         // Determine Window Size.
-        if (rScrollWindow == null)
-            rScrollWindow = new Rect(0, 0, dimFilteredListWidth, dimPreviewFilteredHeight);
-
-        // Scroll position goes by pixels
-        //Debug.Log("Scroll Pos: " + ScrollPosition.ToString());
-        //Debug.Log("rScrollBox: " + rScrollWindow.ToString());
+        if (rFilteredItemsScrollWindow == null)
+            rFilteredItemsScrollWindow = new Rect(0, 0, dimFilteredListWidth, dimPreviewFilteredHeight);
 
         // Find number of entries that can fit in window, round up
-        int iMaxEntries = Mathf.CeilToInt(rScrollWindow.height / (float)EntryHeight);
+        int iMaxEntries = Mathf.CeilToInt(rFilteredItemsScrollWindow.height / (float)FilteredModelListEntryHeight);
         int EntriesAfter = 0;
         int EntriesBefore = 0;
 
-        EntriesBefore = Mathf.FloorToInt(ScrollPosition.y / EntryHeight);
-
-        //EntriesBefore = Mathf.RoundToInt(FilteredModels.Count * ScrollPosition.y) - (iMaxEntries / 2);
+        EntriesBefore = Mathf.FloorToInt(FilteredModelListScrollPosition.y / FilteredModelListEntryHeight);
 
         // If filtered list is less than can fit on the screen at one time
         if (FilteredModels.Count < iMaxEntries)
         {
-            EntriesBefore = 0;
             EntriesBefore = 0;
             iMaxEntries = FilteredModels.Count;
         }
@@ -122,21 +114,18 @@ public class EditorDfModelsWindow : EditorWindow
         }
         else // Somewhere in the middle
         {
-            EntriesBefore = Mathf.FloorToInt(ScrollPosition.y / EntryHeight);
+            EntriesBefore = Mathf.FloorToInt(FilteredModelListScrollPosition.y / FilteredModelListEntryHeight);
             EntriesAfter = FilteredModels.Count - EntriesBefore - iMaxEntries;
         }
-        
+
 
         // Put blank space before and after scroll view using unit size times units remaining
         // This is updated every frame so if list changes, it will be updated with the frame
 
-        
 
         // This gets the array of records, and displays those already known.
 
-
-
-        GUILayout.Space(EntriesBefore * EntryHeight);
+        GUILayout.Space(EntriesBefore * FilteredModelListEntryHeight);
 
         for (int i = EntriesBefore; i < (iMaxEntries + EntriesBefore); i++)
         {
@@ -150,26 +139,58 @@ public class EditorDfModelsWindow : EditorWindow
             GUIContent entry = new GUIContent(FilteredModels[i].ModelID.ToString());
 
 
-            if (GUILayout.Button(entry, gsCurrent, GUILayout.ExpandWidth(false), GUILayout.ExpandHeight(false), GUILayout.Height(EntryHeight), GUILayout.Width(EntryWidth)))
+            if (GUILayout.Button(entry, gsCurrent, GUILayout.ExpandWidth(false), GUILayout.ExpandHeight(false), GUILayout.Height(FilteredModelListEntryHeight), GUILayout.Width(FilteredModelListEntryWidth)))
             {
                 InputSelectNewObjects(i, FilteredModels[i].ModelID);
             }
 
         }
-        GUILayout.Space(EntriesAfter * EntryHeight);
-
-        
+        GUILayout.Space(EntriesAfter * FilteredModelListEntryHeight);
 
         GUILayout.EndScrollView();
 
-        
+
         Rect rTest = GUILayoutUtility.GetLastRect();
         if (rTest.x != 0.0f)
-            rScrollWindow = rTest;
+            rFilteredItemsScrollWindow = rTest;
 
         GUILayout.EndVertical();
     }
 
+    /// <summary>
+    /// Moves the filtered list scroll bar to put the currently selected entry on the viewing screen
+    /// </summary>
+    void SetFilteredModelListScrollBarToSelectedEntry()
+    {
+        // Find number of entries that can fit in window, round up
+        int iMaxEntries = Mathf.CeilToInt(rFilteredItemsScrollWindow.height / (float)FilteredModelListEntryHeight);
+        int EntriesBefore = 0;
+        // Max entires possible onscreen
+
+        //EntriesBefore = Mathf.FloorToInt(FilteredModelListScrollPosition.y / FilteredModelListEntryHeight);
+
+        EntriesBefore = soData.LastClickedIndex - (iMaxEntries / 2);
+
+        // If filtered list is less than can fit on the screen at one time
+        if (FilteredModels.Count < iMaxEntries)
+        {
+            FilteredModelListScrollPosition.y = 0;
+        }
+        else
+        if (EntriesBefore <= 0)  // If at bottom of the section
+        {
+            FilteredModelListScrollPosition.y = 0;
+        }
+        else
+        if ((EntriesBefore + iMaxEntries) >= FilteredModels.Count)   // Top section of chart
+        {
+            FilteredModelListScrollPosition.y = (FilteredModels.Count - iMaxEntries) * FilteredModelListEntryHeight;
+        }
+        else // Somewhere in the middle
+        {
+            FilteredModelListScrollPosition.y = soData.LastClickedIndex * FilteredModelListEntryHeight;
+        }
+    }
 
 
     /// <summary>
@@ -195,7 +216,7 @@ public class EditorDfModelsWindow : EditorWindow
     {
         bool DeSelected = false;
 
-        
+
 
         if (Event.current.control)
         {
@@ -243,7 +264,7 @@ public class EditorDfModelsWindow : EditorWindow
             selectedIndex = new List<int>();
             if (!IsSelected(NowClickedIndex))
             {
-                
+
                 selectedIndex.Add(NowClickedIndex);
             } else
             {
@@ -254,7 +275,7 @@ public class EditorDfModelsWindow : EditorWindow
         soData.LastClickedIndex = NowClickedIndex;
 
         CheckMeshLoaded(NowClickedIndex);
-        
+
 
         PreviewRenderInit();
 
@@ -277,19 +298,17 @@ public class EditorDfModelsWindow : EditorWindow
         if (NowClickedIndex == -1)
             NowClickedIndex = soData.LastClickedIndex;
 
-        //Debug.Log("Try to Check Mesh" + FilteredModels[NowClickedIndex].ModelID.ToString());
+        Debug.Log("Try to Check Mesh" + FilteredModels[NowClickedIndex].ModelID.ToString());
 
         bool LikelyLostFocus = (selectedIndex.Count == 1 && soData.LastClickedIndex == 0);
         bool ForceUpdate = (NowClickedIndex == -1);
         bool ClickedOnSameItem = (NowClickedIndex == soData.LastClickedIndex);
 
-      //  if ((!LikelyLostFocus && !ClickedOnSameItem) || ForceUpdate)
+        //  if ((!LikelyLostFocus && !ClickedOnSameItem) || ForceUpdate)
         {
-
-
-            //Debug.Log("Loading Display Mesh ID: " + FilteredModels[NowClickedIndex].ModelID.ToString());
+            Debug.Log("Loading Display Mesh ID: " + FilteredModels[NowClickedIndex].ModelID.ToString());
             myBareMesh = SpawnDfModel.GetBareMeshFromId(FilteredModels[NowClickedIndex].ModelID);
-            
+
         }
 
         soData.LastClickedIndex = NowClickedIndex;
@@ -301,9 +320,11 @@ public class EditorDfModelsWindow : EditorWindow
     /// </summary>
     void PrintSelectedModelsToPreview()
     {
+        dimPreviewFilteredHeight = position.height - 260;
+        if (dimPreviewFilteredHeight < 200) dimPreviewFilteredHeight = 200;
 
 
-        GUILayout.BeginVertical(GUILayout.ExpandHeight(true), GUILayout.Height(dimPreviewFilteredHeight));
+        GUILayout.BeginVertical(GUILayout.ExpandHeight(true)/*, GUILayout.Height(dimPreviewFilteredHeight)*/);
 
 
 
@@ -317,7 +338,7 @@ public class EditorDfModelsWindow : EditorWindow
             return;
         }
 
-        
+
 
         if (myBareMesh == null)
         {
@@ -328,13 +349,13 @@ public class EditorDfModelsWindow : EditorWindow
             return;
         }
 
-        DrawRenderPreview(myBareMesh, GUILayoutUtility.GetRect(EditorGUIUtility.currentViewWidth-dimFilteredListWidth, dimPreviewFilteredHeight), GUIStyle.none);
-        
+        DrawRenderPreview(myBareMesh, GUILayoutUtility.GetRect(EditorGUIUtility.currentViewWidth - dimFilteredListWidth, dimPreviewFilteredHeight), GUIStyle.none);
+
 
         GUILayout.EndVertical();
     }
 
-    
+
     public void DrawRenderPreview(BareDaggerfallMeshStats bareMesh, Rect r, GUIStyle gstyle)
     {
         if (previewRenderUtility == null)
@@ -348,37 +369,74 @@ public class EditorDfModelsWindow : EditorWindow
 
         if (previewRenderUtility.camera == null)
         {
-            //Debug.Log("No preview render camera found.");
             return;
         }
 
         previewRenderUtility.BeginPreview(r, gstyle);
 
         InputPreviewWindowControls(r);
-
-        // FIXME Doesn't render the right material to the mesh.  Need some way of knowing which submesh to render the material to.
-
         
-
         if (bareMesh.mesh != null)
             for (int i = 0; i < bareMesh.SubMeshIndex; i++)
             {
 
-                
                 previewRenderUtility.DrawMesh(bareMesh.mesh, Vector3.zero, Quaternion.Euler(-30f, 0f, 0f) * Quaternion.Euler(0f, 60, 0f), bareMesh.mat[i], i, bareMesh.mProp);
 
             }
 
         bool fog = false;
-        //Unsupported.SetRenderSettingsUseFogNoDirty(false);
+        Unsupported.SetRenderSettingsUseFogNoDirty(false);
         previewRenderUtility.camera.Render();
-        //Unsupported.SetRenderSettingsUseFogNoDirty(fog);
+        Unsupported.SetRenderSettingsUseFogNoDirty(fog);
         Texture texture = previewRenderUtility.EndPreview();
 
         GUI.DrawTexture(r, texture);
     }
 
-    
+
+    void InputKeyboardCommands()
+    {
+        // Will keep cycling through selected items if more than on is selected.  Otherwise will go down list and
+        // wrap to the top selecting each item one by one.
+        if (Event.current.type == EventType.KeyDown && Event.current.keyCode == KeyCode.DownArrow)
+        {
+            if (selectedIndex.Count == 0)
+            {
+                soData.LastClickedIndex = 0;
+                selectedIndex.Add(soData.LastClickedIndex);
+                CheckMeshLoaded(soData.LastClickedIndex);
+                return;
+            }
+
+            if (selectedIndex.Count == 1)
+            {
+                soData.LastClickedIndex++;
+                if (soData.LastClickedIndex >= FilteredModels.Count)
+                    soData.LastClickedIndex = 0;
+
+                selectedIndex = new List<int>();
+                selectedIndex.Add(soData.LastClickedIndex);
+                CheckMeshLoaded(soData.LastClickedIndex);
+                return;
+            }
+
+            if (selectedIndex.Count > 1)
+            {
+                selectedIndex.Sort();
+
+                // Get exactly which index LastClicked is within the SelectedIndex
+
+                int si = selectedIndex.IndexOf(soData.LastClickedIndex);
+                si++;
+                if (si >= selectedIndex.Count)
+                    si = 0;
+                // Increment that index position
+                soData.LastClickedIndex = selectedIndex[si];
+                CheckMeshLoaded(soData.LastClickedIndex);
+            }
+            Debug.Log("Down Arrow");
+        }
+    }
 
     /// <summary>
     /// Keyboard or mouse controls for viewing and panning in the preview window
@@ -386,31 +444,7 @@ public class EditorDfModelsWindow : EditorWindow
     private void InputPreviewWindowControls(Rect rHotArea)
     {
 
-        if (Event.current.type == EventType.KeyDown && Event.current.keyCode == KeyCode.DownArrow)
-        {
-            soData.LastClickedIndex++;
-            selectedIndex = new List<int>();
-
-            // Nothing currently selected
-            if (selectedIndex.Count == 0)   
-            {
-                soData.LastClickedIndex = 0;
-                selectedIndex.Add(soData.LastClickedIndex);
-            } else
-            // Went out of range
-            if (soData.LastClickedIndex >= selectedIndex.Count) 
-            {
-                soData.LastClickedIndex = 0;
-                selectedIndex.Add(soData.LastClickedIndex);
-            } else
-            // Only one selected - Change both
-            if (selectedIndex.Count == 1)
-            {
-                selectedIndex.Add(soData.LastClickedIndex);
-            }
-
-            Debug.Log("Down Arrow");
-        }
+       
 
         // Only use controls if inside this area
         if (rHotArea.Contains(Event.current.mousePosition) == false)
@@ -421,7 +455,7 @@ public class EditorDfModelsWindow : EditorWindow
 
         var drag = Vector2.zero;
         Vector2 ScrollDelta = Vector2.zero;
-        
+
         if (Event.current.type == EventType.MouseDrag)
         {
             drag = Event.current.delta;
@@ -445,7 +479,7 @@ public class EditorDfModelsWindow : EditorWindow
         if (Event.current.type == EventType.MouseDrag && Event.current.button == 2)
         {
             previewRenderUtility.camera.transform.Translate(previewRenderUtility.camera.transform.right * -drag.x * PanMod * 0.3f);
-            previewRenderUtility.camera.transform.Translate(previewRenderUtility.camera.transform.up * - drag.y * PanMod * 0.3f);
+            previewRenderUtility.camera.transform.Translate(previewRenderUtility.camera.transform.up * -drag.y * PanMod * 0.3f);
         } else
         {
             previewRenderUtility.camera.transform.RotateAround(Vector3.forward * 0, Vector3.up, -drag.x * PanMod);
@@ -454,7 +488,7 @@ public class EditorDfModelsWindow : EditorWindow
             //previewRenderUtility.camera.transform.Rotate(-drag.y * PanMod,0,0);
         }
 
-       // if(Event.current.type == EventType.MouseDrag && Event.current.button == 1)
+        // if(Event.current.type == EventType.MouseDrag && Event.current.button == 1)
         {
             previewRenderUtility.camera.transform.LookAt(Vector3.zero, Vector3.up);
         }
@@ -466,7 +500,7 @@ public class EditorDfModelsWindow : EditorWindow
             Repaint();
 
 
-    
+
 
     }
 
@@ -527,51 +561,33 @@ public class EditorDfModelsWindow : EditorWindow
     /// </summary>
     void PrintCurrentSelectedLabels()
     {
-        
-        EditorGUILayout.BeginHorizontal();
 
-        /*
-        if (SelectedLabel.Count <= 0)
-        {
-            GUILayout.Label("---No Labels Selected---");
-            
-        }
-        */
+        EditorGUILayout.BeginHorizontal();
 
         GUIStyle fds = new GUIStyle();
         fds = EditorStyles.miniButton;
-        //fds.margin = new RectOffset(0, 0, 0, 0);
-        //fds.padding = new RectOffset(0, 0, 0, 0);
-        //GUIStyleState fg = new GUIStyleState();
-
-        
-
-        //GUILayoutUtility.GetLastRect().Contains(Event.current.mousePosition);
 
         // Print selected labels first
         for (int i = 0; i < SelectedLabel.Count; i++)
         {
             // Remove selected label when clicked
-            if (GUILayout.Button(SelectedLabel[i])) 
+            if (GUILayout.Button(SelectedLabel[i]))
             {
-                SelectedLabel.Remove(SelectedLabel[i]);
-                SelectedLabel.TrimExcess();
-                // Redo Filtered List
-                UpdateFilteredList();
+                SelectedLabelClickRemove(SelectedLabel[i]);
             }
-            
 
-            if (GUILayout.Button("X",fds))
+            /*
+            if (GUILayout.Button("X", fds))
             {
                 //soData.TryToRemoveLabel(SelectedLabel[i], GetSelectedModelRecords());
                 SelectedLabel.Remove(SelectedLabel[i]);
                 SelectedLabel.TrimExcess();
                 UpdateFilteredList();
             }
-            
+            */
             GUILayout.Space(15); // Slight margin
-            
-            
+
+
         }
 
         // Then print all other label buttons on currently selected object minus selected ones.
@@ -584,9 +600,7 @@ public class EditorDfModelsWindow : EditorWindow
 
                     if (GUILayout.Button(FilteredModels[soData.LastClickedIndex].Labels[i], EditorStyles.whiteLabel))
                     {
-                        SelectedLabel.Add(FilteredModels[soData.LastClickedIndex].Labels[i]);
-                        // Redo Filtered List
-                        UpdateFilteredList();
+                        SelectedLabelClickAdd(FilteredModels[soData.LastClickedIndex].Labels[i]);
                     }
                 }
 
@@ -594,7 +608,7 @@ public class EditorDfModelsWindow : EditorWindow
         EditorGUILayout.EndHorizontal();
     }
 
-    
+
 
 
     /// <summary>
@@ -602,10 +616,10 @@ public class EditorDfModelsWindow : EditorWindow
     /// </summary>
     void UpdateFilteredList()
     {
-
         // If no records then return
         if (soData.record.Count <= 0) return;
 
+        // Create a new list of the actual ID numbers of selected items
         List<int> SelectedID = new List<int>();
 
         if (selectedIndex == null)
@@ -631,10 +645,10 @@ public class EditorDfModelsWindow : EditorWindow
             // Sort out all the selected labels
             for (int i = 0; i < soData.record.Count; i++)
             {
-                    if (soData.record[i].Labels.Count == 0)
-                    {
-                        FilteredModels.Add(soData.record[i]);
-                    }
+                if (soData.record[i].Labels.Count == 0)
+                {
+                    FilteredModels.Add(soData.record[i]);
+                }
 
             }
             //soData.LastClickedIndex = 0;
@@ -674,8 +688,6 @@ public class EditorDfModelsWindow : EditorWindow
                 }
             }
 
-
-
         UpdateSelectedList(SelectedID);
         CheckMeshLoaded(soData.LastClickedIndex);
 
@@ -685,7 +697,7 @@ public class EditorDfModelsWindow : EditorWindow
     {
         if (FilteredModels.Count <= 0) return;
 
-        //bool FoundSelectedRecordInNewFilteredList = false;
+        bool FoundSelectedRecordInNewFilteredList = false;
 
         // Save the last clicked ID model, and see if it's still selected at the end.
         int LastClickedId;
@@ -695,16 +707,15 @@ public class EditorDfModelsWindow : EditorWindow
         else
             LastClickedId = 0;
 
-        soData.LastClickedIndex = -1;
+        Debug.Log("Last clicked ID is: " + LastClickedId.ToString());
 
-        //if (selectedIndex.Contains(soData.LastClickedIndex) == false)
-        //    soData.LastClickedIndex = 0;
+        soData.LastClickedIndex = -1;
 
         selectedIndex = new List<int>();
 
+        // No filtered items to display
         if (FilteredModels.Count <= 0)
         {
-
             return;
         }
         // Sort list
@@ -712,26 +723,43 @@ public class EditorDfModelsWindow : EditorWindow
         int selCount = 0;
         int filCount = 0;
 
+        // Ensures the same records selected before stay selected
         while (selCount < SelectedID.Count && filCount < FilteredModels.Count)
         {
+            // Goes through each old selected ID to compare to new list
             if (SelectedID[selCount] == FilteredModels[filCount].ModelID)
             {
                 selectedIndex.Add(filCount);
                 selCount++;
             }
 
-            if (LastClickedId == FilteredModels[filCount].ModelID)
+            // If you get to the same entry as the prime selected entry or beyond.  Reassign to that selected entry.
+            if (LastClickedId <= FilteredModels[filCount].ModelID && !FoundSelectedRecordInNewFilteredList)
+            {
+                FoundSelectedRecordInNewFilteredList = true;
+                selectedIndex.Add(filCount);
                 soData.LastClickedIndex = filCount;
+            }
 
-                filCount++;
+            filCount++;
         }
 
-        if (selectedIndex.Count > 0)
-            soData.LastClickedIndex = selectedIndex[0];
-        else
-            soData.LastClickedIndex = 0;
-
+        
         // If LastClickedIndex is still -1, set it to the first entry
+        if (!FoundSelectedRecordInNewFilteredList)
+        {
+            if (selectedIndex.Count > 0)
+                soData.LastClickedIndex = selectedIndex[0];
+            else
+            {
+                soData.LastClickedIndex = 0;
+                selectedIndex = new List<int>();
+                selectedIndex.Add(soData.LastClickedIndex);
+                
+            }
+        }
+
+        SetFilteredModelListScrollBarToSelectedEntry();
 
     }
 
@@ -744,6 +772,8 @@ public class EditorDfModelsWindow : EditorWindow
         EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(false));
 
         GUILayout.BeginHorizontal();
+
+        GUILayout.FlexibleSpace();
 
         if (GUILayout.Button(bHideLabeled ? "Show All" : "Hide Labeled", bHideLabeled ? EditorStyles.toolbarButton : EditorStyles.whiteLabel))
         {
@@ -767,13 +797,18 @@ public class EditorDfModelsWindow : EditorWindow
 
     Vector2 CollapseableLabelListScrollPos = new Vector2();
 
+    GUIStyle gsLabelUnselected;
+    GUIStyle gsLabelSelected;
+    GUIStyleState gssSelected;
+
+    /// <summary>
+    /// Prints the list of ALL labels in the editor window. (if the option to show it exists)
+    /// </summary>
     void PrintCollapseableLabelList()
     {
         float viewWidth = EditorGUIUtility.currentViewWidth;
 
-        GUIStyle gsLabelStyle = EditorStyles.helpBox;
-        gsLabelStyle.stretchWidth = true;
-        gsLabelStyle.fixedWidth = 0;
+        GUIStyle gsCurrent = new GUIStyle();
 
         EditorGUILayout.BeginVertical();
 
@@ -783,22 +818,23 @@ public class EditorDfModelsWindow : EditorWindow
 
         foreach (string s in soData.Labels)
         {
-            if (GUILayout.Button(s, gsLabelStyle, GUILayout.ExpandWidth(true)))
+            if (SelectedLabel.Contains(s))
             {
-                if (!SelectedLabel.Contains(s))
+                if (GUILayout.Button(s, gsLabelSelected, GUILayout.ExpandWidth(true)))
                 {
-                    SelectedLabel.Add(s);
-                    
-                } else
-                {
-                    SelectedLabel.Remove(s);
+                    SelectedLabelClickRemove(s);
                 }
-                UpdateFilteredList();
-
             }
-        }
+            else
+            {
+                if (GUILayout.Button(s, gsLabelUnselected, GUILayout.ExpandWidth(true)))
+                {
+                    SelectedLabelClickAdd(s);
+                }
+            }
 
-        
+
+        }
         //GUILayout.EndArea();
         GUILayout.EndHorizontal();
         GUILayout.EndScrollView();
@@ -806,7 +842,37 @@ public class EditorDfModelsWindow : EditorWindow
         EditorGUILayout.EndVertical();
 
 
-       
+
+    }
+
+    void SelectedLabelClickAdd(string selLabel)
+    {
+        // If has no key pressed only do the one label
+        if (!Event.current.control)
+        {
+            SelectedLabel = new List<string>();
+        }
+
+        SelectedLabel.Add(selLabel);
+
+        UpdateFilteredList();
+    }
+
+    void SelectedLabelClickRemove(string selLabel)
+    {
+        // If more than one selected, merely single select the one you click on
+        if (SelectedLabel.Count > 1 && !Event.current.control)
+        {
+            SelectedLabel = new List<string>();
+            SelectedLabel.Add(selLabel);
+            return;
+        }
+
+
+        // If has no key pressed only do the one label
+        SelectedLabel.Remove(selLabel);
+
+        UpdateFilteredList();
     }
 
     /// <summary>
@@ -817,7 +883,7 @@ public class EditorDfModelsWindow : EditorWindow
 
         if (Event.current.control)
         {
-            
+
             GUILayout.Label("CTRL");
         }
 
@@ -826,7 +892,7 @@ public class EditorDfModelsWindow : EditorWindow
             GUILayout.Label("SHIFT");
         }
 
-            EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(false));
+        EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(false));
 
         float buttonWidth = 400;
         float buttonHeight = 30;
@@ -895,7 +961,7 @@ public class EditorDfModelsWindow : EditorWindow
             Debug.Log("---===Selected Index===---");
             for (int i = 0; i < selectedIndex.Count; i++) {
                 Debug.Log("Index: " + selectedIndex[i].ToString());
-                
+
             }
             Debug.Log("---===END Selected Index===---");
         }
@@ -905,12 +971,12 @@ public class EditorDfModelsWindow : EditorWindow
             soData.GetAllCurrentLabels();
         }
 
-        
+
         EditorGUILayout.EndHorizontal();
 
 
-        
-        
+
+
 
     }
 
@@ -919,12 +985,16 @@ public class EditorDfModelsWindow : EditorWindow
 
     void OnGUI()
     {
+        SetGuiStyles();
+
         EditorGUILayout.BeginHorizontal();
         EditorGUILayout.LabelField(new GUIContent("Select Model Number(s) to View"));
         EditorGUILayout.Space();
         EditorGUILayout.LabelField(new GUIContent("Models"));
 
         EditorGUILayout.EndHorizontal();
+
+        InputKeyboardCommands();
 
         EditorGUILayout.BeginHorizontal();
 
@@ -954,7 +1024,24 @@ public class EditorDfModelsWindow : EditorWindow
         // Remove label from selected objects - Appears when you click on an already selected label
 
         // Button to add selected Meshs into scene.  Will only add first one selected.  Greys out if multiple selected.
-       // Event.current.Use();
+        // Event.current.Use();
+    }
+
+    void SetGuiStyles()
+    {
+        gsLabelUnselected = new GUIStyle(EditorStyles.helpBox);
+        gsLabelUnselected.stretchWidth = true;
+        gsLabelUnselected.fixedWidth = 0;
+        gsLabelUnselected.wordWrap = false;
+
+        gsLabelSelected = new GUIStyle(gsLabelUnselected);
+        gssSelected.textColor = Color.green;
+        gsLabelSelected.fontStyle = FontStyle.Bold;
+        gsLabelSelected.onNormal = gssSelected;
+        gsLabelSelected.focused = gssSelected;
+        gsLabelSelected.hover = gssSelected;
+        gsLabelSelected.normal = gssSelected;
+
     }
 
     #region Events
@@ -974,6 +1061,15 @@ public class EditorDfModelsWindow : EditorWindow
 
         if (soData.LastClickedIndex >= FilteredModels.Count)
             soData.LastClickedIndex = 0;
+
+
+        Debug.Log("Setting blue texture");
+        Texture2D txBlue = new Texture2D(1, 1);
+        txBlue.SetPixel(0, 0, Color.blue);
+        txBlue.Apply();
+        gssSelected = new GUIStyleState();
+        gssSelected.background = txBlue;
+        
 
         PreviewRenderInit();
 
