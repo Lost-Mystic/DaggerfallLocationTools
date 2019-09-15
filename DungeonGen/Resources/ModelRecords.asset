@@ -16279,6 +16279,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16290,6 +16291,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16301,6 +16303,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16312,6 +16315,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16323,6 +16327,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16334,6 +16339,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16345,6 +16351,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16356,6 +16363,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16377,6 +16385,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16388,6 +16397,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16399,6 +16409,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16410,6 +16421,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16421,6 +16433,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16432,6 +16445,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16443,6 +16457,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16454,6 +16469,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16465,6 +16481,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16476,6 +16493,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16487,6 +16505,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16498,6 +16517,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16509,6 +16529,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16520,6 +16541,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16531,6 +16553,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16542,6 +16565,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16553,6 +16577,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16564,6 +16589,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16575,6 +16601,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16586,6 +16613,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16597,6 +16625,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16608,6 +16637,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16619,6 +16649,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16630,6 +16661,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_rich2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16641,6 +16673,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16652,6 +16685,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16663,6 +16697,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16674,6 +16709,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16685,6 +16721,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16696,6 +16733,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16707,6 +16745,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16718,6 +16757,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_adobe"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16729,6 +16769,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16740,6 +16781,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16751,6 +16793,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16762,6 +16805,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16773,6 +16817,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16784,6 +16829,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16795,6 +16841,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16806,6 +16853,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_arena"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16817,6 +16865,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16828,6 +16877,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16839,6 +16889,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16850,6 +16901,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16861,6 +16913,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16872,6 +16925,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16883,6 +16937,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16894,6 +16949,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_sanct2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16905,6 +16961,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16916,6 +16973,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16927,6 +16985,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16938,6 +16997,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16949,6 +17009,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16960,6 +17021,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16971,6 +17033,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16982,6 +17045,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_home2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -16993,6 +17057,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -17004,6 +17069,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -17015,6 +17081,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -17026,6 +17093,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -17037,6 +17105,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -17048,6 +17117,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -17059,6 +17129,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -17070,6 +17141,7 @@ MonoBehaviour:
     Labels:
     - buildinginterior
     - stairs
+    - "\u03C9s_wood"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -78931,6 +79003,7 @@ MonoBehaviour:
     - windmill
     - buildinginterior
     - room
+    - "\u03C9s_mill"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -83480,7 +83553,7 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df51
+    - "\u03C9s_cellar2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -83659,8 +83732,8 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df51
-    - sc_arc_b
+    - "\u03C9c_archthin"
+    - "\u03C9s_cellar2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86761,7 +86834,7 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df54
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86838,9 +86911,9 @@ MonoBehaviour:
     - room
     - pit
     - cs_test
-    - sd_df53
-    - sc_door
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -86972,7 +87045,7 @@ MonoBehaviour:
     - dungeon
     - pit
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87040,8 +87113,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
+    - room
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87064,8 +87138,8 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87089,8 +87163,8 @@ MonoBehaviour:
     - pit
     - room
     - cs_test
-    - sd_df71
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87298,8 +87372,8 @@ MonoBehaviour:
     - giantroomchunk
     - pit
     - cs_test
-    - sd_df72
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun10"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87347,8 +87421,8 @@ MonoBehaviour:
     - giantroomchunk
     - pit
     - cs_test
-    - sd_df53
-    - sd_df55
+    - "\u03C9s_dun01"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87422,8 +87496,8 @@ MonoBehaviour:
     - dungeon
     - room
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87606,8 +87680,9 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
-    - sd_df54
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun02"
+    - transition
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87632,7 +87707,7 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87645,7 +87720,7 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df56
+    - "\u03C9s_dun06"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87669,7 +87744,7 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87741,7 +87816,7 @@ MonoBehaviour:
     - dungeon
     - ramp
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87789,9 +87864,9 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df71
-    - sc_arc
-    - sc_open1w2h
+    - "\u03C9c_arch"
+    - "\u03C9c_open"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87827,8 +87902,8 @@ MonoBehaviour:
     - ramp
     - stairs
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87841,7 +87916,7 @@ MonoBehaviour:
     - dungeon
     - stairs
     - cs_test
-    - sd_df31
+    - "\u03C9s_sanct3"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87888,8 +87963,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df77
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87913,8 +87988,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df77
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87949,8 +88024,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df77
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87963,8 +88038,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df78
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -87999,8 +88074,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df77
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88046,8 +88121,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df77
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88071,8 +88146,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df79
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88086,9 +88161,9 @@ MonoBehaviour:
     - ramp
     - hall
     - cs_test
-    - sd_df55
     - 
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88102,9 +88177,9 @@ MonoBehaviour:
     - pit
     - hall
     - cs_test
-    - sd_df54
     - 
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88139,10 +88214,10 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df55
     - 
-    - sc_arc
-    - sc_door
+    - "\u03C9c_arch"
+    - "\u03C9c_door"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88321,9 +88396,9 @@ MonoBehaviour:
     - hall
     - pit
     - cs_test
-    - sd_df61
     - 
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun05"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88358,9 +88433,9 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df63
-    - sc_arc
-    - sc_door
+    - "\u03C9c_arch"
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88528,9 +88603,9 @@ MonoBehaviour:
     - hall
     - slope
     - cs_test
-    - sd_df65
     - 
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88620,9 +88695,9 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df65
     - 
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88778,8 +88853,8 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df55
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88792,9 +88867,9 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df55
     - 
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -88895,9 +88970,9 @@ MonoBehaviour:
     - hall
     - deadend
     - cs_test
-    - sd_df55
     - 
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89158,8 +89233,8 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df63
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89272,8 +89347,8 @@ MonoBehaviour:
     - hall
     - deadend
     - cs_test
-    - sd_df63
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89310,9 +89385,9 @@ MonoBehaviour:
     - pit
     - hall
     - cs_test
-    - sd_df63
-    - sd_df56
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun04"
+    - "\u03C9s_dun06"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89549,8 +89624,8 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df65
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89892,9 +89967,9 @@ MonoBehaviour:
     - pit
     - cs_test
     - deadend
-    - sd_df55
-    - sd_df56
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun03"
+    - "\u03C9s_dun06"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -89932,10 +90007,10 @@ MonoBehaviour:
     - hall
     - giantroomchunk
     - cs_test
-    - sd_df55
     - 
-    - sc_arc
-    - sc_open1w2h
+    - "\u03C9c_arch"
+    - "\u03C9c_open"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90070,9 +90145,9 @@ MonoBehaviour:
     - hall
     - giantroomchunk
     - cs_test
-    - sd_df55
-    - sc_open1w2h
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9c_open"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90110,10 +90185,10 @@ MonoBehaviour:
     - hall
     - giantroomchunk
     - cs_test
-    - sd_df55
-    - sc_door
-    - sc_open1w2h
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90212,8 +90287,8 @@ MonoBehaviour:
     - hall
     - cs_test
     - deadend
-    - sd_df63
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90414,10 +90489,10 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
-    - sd_df63
-    - sc_arc
-    - sc_open1w2h
-    - sc_door
+    - "\u03C9c_arch"
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90499,8 +90574,8 @@ MonoBehaviour:
     - hall
     - cs_test
     - deadend
-    - sd_df65
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90767,7 +90842,7 @@ MonoBehaviour:
     - dungeon
     - bridge
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90879,7 +90954,7 @@ MonoBehaviour:
     - dungeon
     - bridge
     - cs_test
-    - sd_df63
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -90991,7 +91066,7 @@ MonoBehaviour:
     - dungeon
     - bridge
     - cs_test
-    - sd_df65
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91114,9 +91189,9 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df53
-    - sc_arc
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_arch"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91195,8 +91270,8 @@ MonoBehaviour:
     - dungeon
     - room
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91352,9 +91427,9 @@ MonoBehaviour:
     - hall
     - giantroomchunk
     - cs_test
-    - sd_df76
-    - sc_arc
-    - sc_open1w2h
+    - "\u03C9c_arch"
+    - "\u03C9c_open"
+    - "\u03C9s_dun12"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91436,8 +91511,8 @@ MonoBehaviour:
     - room
     - window
     - cs_test
-    - sd_df53
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91450,9 +91525,9 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
-    - sd_df76
-    - sc_open1w2h
     - window
+    - "\u03C9c_open"
+    - "\u03C9s_dun12"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91563,8 +91638,8 @@ MonoBehaviour:
     - dungeon
     - room
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91697,8 +91772,8 @@ MonoBehaviour:
     - cave
     - dungeon
     - cs_test
-    - sd_df79
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9s_cav2"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91778,7 +91853,7 @@ MonoBehaviour:
     - giantroomchunk
     - flat
     - cs_test
-    - sd_df63
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -91914,8 +91989,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92167,8 +92242,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92180,9 +92255,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_arc
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_arch"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92214,8 +92289,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92541,8 +92616,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92604,8 +92679,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92707,8 +92782,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df54
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92741,8 +92816,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - deadend
-    - sd_df54
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -92764,9 +92839,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df54
-    - sc_taperlower
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93117,8 +93192,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df54
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93160,8 +93235,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df54
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93174,9 +93249,9 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - transition
-    - sd_df54
-    - sc_taperlower
-    - sc_taperthin
+    - "\u03C9c_taper"
+    - "\u03C9c_taperthin"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93189,10 +93264,10 @@ MonoBehaviour:
     - dungeon
     - transition
     - cs_test
-    - sd_df54
-    - sd_df55
-    - sc_taperlower
-    - sc_arc
+    - "\u03C9c_arch"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93205,11 +93280,11 @@ MonoBehaviour:
     - dungeon
     - transition
     - cs_test
-    - sd_df54
     - cave
-    - sd_df77
-    - sc_taperlower
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93222,10 +93297,10 @@ MonoBehaviour:
     - dungeon
     - transition
     - cs_test
-    - sd_df54
-    - sd_df71
-    - sc_taperlower
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93237,9 +93312,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df54
-    - sc_taperlower
     - window
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93251,9 +93326,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df54
     - window
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93285,9 +93360,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df54
-    - sd_df53
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93359,8 +93433,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df61
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun05"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93622,8 +93696,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df61
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun05"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93816,9 +93890,9 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - transition
-    - sd_df61
-    - sc_taperlower
-    - sc_taperthin
+    - "\u03C9c_taper"
+    - "\u03C9c_taperthin"
+    - "\u03C9s_dun05"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93831,10 +93905,10 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - transition
-    - sd_df61
-    - sd_df63
-    - sc_taperlower
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun04"
+    - "\u03C9s_dun05"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93848,10 +93922,10 @@ MonoBehaviour:
     - cs_test
     - transition
     - cave
-    - sd_df61
-    - sd_df76
-    - sc_taperlower
-    - sc_cavetri
+    - "\u03C9c_cave"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun05"
+    - "\u03C9s_dun12"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93864,10 +93938,10 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - transition
-    - sd_df61
-    - sd_df71
-    - sc_taperlower
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun05"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93919,9 +93993,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df61
-    - sd_df63
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun04"
+    - "\u03C9s_dun05"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -93973,9 +94047,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df61
-    - sc_taperlower
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun05"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94048,9 +94122,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
-    - sc_taperlower
+    - "\u03C9c_door"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94464,9 +94538,9 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - transition
-    - sd_df65
-    - sc_taperlower
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94490,10 +94564,10 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - transition
-    - sd_df65
-    - sd_df71
-    - sc_box
-    - sc_taperlower
+    - "\u03C9c_box"
+    - "\u03C9c_taper"
+    - "\u03C9s_dun08"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94545,9 +94619,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_taperlower
     - window
+    - "\u03C9c_taper"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94609,8 +94683,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94682,9 +94756,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
-    - sc_open1w2d
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94706,9 +94780,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df49
-    - sc_door
     - giantroomchunk
+    - "\u03C9c_door"
+    - "\u03C9s_dun20"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94900,8 +94974,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -94993,8 +95067,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95076,8 +95150,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95099,8 +95173,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95182,8 +95256,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95275,8 +95349,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95338,8 +95412,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95371,7 +95445,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95383,7 +95457,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95435,8 +95509,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95618,9 +95692,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_open1w2h
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95682,9 +95756,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df49
-    - sc_door
-    - sc_open1w2h
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun20"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95716,8 +95790,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95729,8 +95803,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95762,8 +95836,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_taperlower
+    - "\u03C9c_taper"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95785,9 +95859,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_taperlower
     - giantroomchunk
+    - "\u03C9c_taper"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95799,9 +95873,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_taperlower
     - giantroomchunk
+    - "\u03C9c_taper"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95813,8 +95887,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
     - giantroomchunk
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95826,8 +95900,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
     - giantroomchunk
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95839,7 +95913,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95901,7 +95975,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df49
+    - "\u03C9s_dun20"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -95963,8 +96037,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
     - giantroomchunk
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96006,8 +96080,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
     - giantroomchunk
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96049,8 +96123,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
     - giantroomchunk
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96092,8 +96166,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96145,8 +96219,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96238,8 +96312,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96272,8 +96346,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96295,8 +96369,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df81
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun09"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96338,9 +96412,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df81
-    - sc_box
-    - sc_door
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9s_dun09"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96472,8 +96546,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96515,9 +96589,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
-    - sc_door
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96649,8 +96723,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96732,9 +96806,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_box
-    - sc_door
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96806,9 +96880,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96830,8 +96904,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96913,8 +96987,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96956,9 +97030,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
-    - sc_door
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -96981,8 +97055,8 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - deadend
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97115,8 +97189,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97158,8 +97232,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97181,8 +97255,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97284,8 +97358,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97307,9 +97381,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
-    - sc_door
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97471,8 +97545,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97504,9 +97578,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
-    - sc_door
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97538,8 +97612,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97681,8 +97755,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sc_door
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97894,9 +97968,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
     - pit
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -97978,10 +98052,10 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_door
-    - sc_box
-    - sc_open1w2h
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98053,9 +98127,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_open1w2h
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98137,9 +98211,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_door
-    - sc_open1w2h
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98171,9 +98245,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_door
     - pit
+    - "\u03C9c_door"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98215,9 +98289,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
     - pit
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98229,8 +98303,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98242,8 +98316,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98295,8 +98369,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98308,9 +98382,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
     - pit
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98362,10 +98436,10 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
-    - sc_door
-    - sc_open1w2h
+    - "\u03C9c_box"
+    - "\u03C9c_door"
+    - "\u03C9c_open"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98597,9 +98671,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
     - pit
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98621,9 +98695,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_box
     - pit
+    - "\u03C9c_box"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98655,8 +98729,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_open1w2h
+    - "\u03C9c_open"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98718,8 +98792,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -98961,9 +99035,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_box
     - pit
+    - "\u03C9c_box"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99095,8 +99169,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99128,8 +99202,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df71
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun11"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99171,8 +99245,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99204,8 +99278,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df46
-    - sc_taperthin
+    - "\u03C9c_taperthin"
+    - "\u03C9s_cellar1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99217,9 +99291,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df46
-    - sc_taperthin
     - stairs
+    - "\u03C9c_taperthin"
+    - "\u03C9s_cellar1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99321,8 +99395,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df46
-    - sc_taperthin
+    - "\u03C9c_taperthin"
+    - "\u03C9s_cellar1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99335,9 +99409,9 @@ MonoBehaviour:
     - dungeon
     - cs_test
     - transition
-    - sd_df46
-    - sc_taperthin
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9c_taperthin"
+    - "\u03C9s_cellar1"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99360,8 +99434,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df81
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun09"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99563,8 +99637,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df81
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun09"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99746,8 +99820,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df81
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun09"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -99969,8 +100043,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df81
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun09"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100092,8 +100166,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100525,8 +100599,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100808,8 +100882,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100831,8 +100905,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100844,8 +100918,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100887,8 +100961,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -100980,8 +101054,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101063,8 +101137,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101146,8 +101220,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101169,8 +101243,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101242,8 +101316,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101255,8 +101329,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101358,8 +101432,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101481,8 +101555,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101734,8 +101808,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101857,8 +101931,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101900,8 +101974,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101973,8 +102047,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -101996,8 +102070,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102009,8 +102083,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102082,8 +102156,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102145,8 +102219,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102248,8 +102322,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102301,8 +102375,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df63
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun04"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102384,8 +102458,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df65
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun08"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102457,8 +102531,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102590,9 +102664,9 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sd_df53
-    - sc_door
     - pit
+    - "\u03C9c_door"
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102854,7 +102928,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sc_box
+    - "\u03C9c_box"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102876,8 +102950,8 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sc_door
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -102909,7 +102983,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sc_door
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103095,7 +103169,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sc_door
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103127,7 +103201,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sc_door
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103169,7 +103243,7 @@ MonoBehaviour:
     Labels:
     - dungeon
     - cs_test
-    - sc_door
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103235,7 +103309,7 @@ MonoBehaviour:
     - giantroomchunk
     - plot
     - cs_test
-    - sd_df54
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103269,7 +103343,7 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
-    - sc_door
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103293,8 +103367,8 @@ MonoBehaviour:
     - plot
     - room
     - cs_test
-    - sd_df54
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103399,7 +103473,7 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
-    - sc_door
+    - "\u03C9c_door"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103558,8 +103632,8 @@ MonoBehaviour:
     - cave
     - giantroomchunk
     - cs_test
-    - sd_df77
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_cav01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103587,8 +103661,8 @@ MonoBehaviour:
     - hall
     - deadend
     - cs_test
-    - sd_df53
-    - sd_df56
+    - "\u03C9s_dun01"
+    - "\u03C9s_dun06"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103614,7 +103688,7 @@ MonoBehaviour:
     - plot
     - room
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103660,7 +103734,7 @@ MonoBehaviour:
     - dungeon
     - pit
     - cs_test
-    - sd_df53
+    - "\u03C9s_dun01"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103935,9 +104009,9 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
-    - sd_df54
-    - sc_door
-    - sc_box_b
+    - "\u03C9c_boxlarge"
+    - "\u03C9c_door"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -103974,8 +104048,8 @@ MonoBehaviour:
     - giantroomchunk
     - hall
     - cs_test
-    - sd_df54
-    - sc_box_b
+    - "\u03C9c_boxlarge"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104001,8 +104075,8 @@ MonoBehaviour:
     - room
     - giantroomchunk
     - cs_test
-    - sd_df54
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104053,8 +104127,8 @@ MonoBehaviour:
     - slope
     - ramp
     - cs_test
-    - sd_df54
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun02"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104100,7 +104174,7 @@ MonoBehaviour:
     - dungeon
     - giantroomchunk
     - cs_test
-    - sc_arcround
+    - "\u03C9c_archpitched"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104146,8 +104220,8 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df55
-    - sc_arcround
+    - "\u03C9c_archpitched"
+    - "\u03C9s_dun03"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104219,7 +104293,7 @@ MonoBehaviour:
     - pit
     - room
     - cs_test
-    - sd_df83
+    - "\u03C9s_dun07"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104366,8 +104440,8 @@ MonoBehaviour:
     - hall
     - pit
     - cs_test
-    - sd_df83
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun07"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104380,8 +104454,8 @@ MonoBehaviour:
     - dungeon
     - hall
     - cs_test
-    - sd_df83
-    - sc_box
+    - "\u03C9c_box"
+    - "\u03C9s_dun07"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -104418,8 +104492,8 @@ MonoBehaviour:
     - dungeon
     - room
     - cs_test
-    - sd_df83
-    - sc_door
+    - "\u03C9c_door"
+    - "\u03C9s_dun07"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -105018,8 +105092,8 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
-    - sc_sewer
-    - sc_sewertall
+    - "\u03C9c_sewer"
+    - "\u03C9c_sewerdeep"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -105032,7 +105106,7 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
-    - sc_sewertall
+    - "\u03C9c_sewerdeep"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -105408,7 +105482,7 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
-    - sc_sewer
+    - "\u03C9c_sewer"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -105432,8 +105506,8 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
-    - sc_sewer
-    - sc_crawl
+    - "\u03C9c_crawl"
+    - "\u03C9c_sewer"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -105457,7 +105531,7 @@ MonoBehaviour:
     - sewer
     - dungeon
     - cs_test
-    - sc_sewer
+    - "\u03C9c_sewer"
     DungeonPiece: 0
     Connections: []
     SuggestedFlats: []
@@ -105901,39 +105975,6 @@ MonoBehaviour:
   - roof
   - room
   - ruins
-  - sc_arc
-  - sc_arc_b
-  - sc_arcround
-  - sc_box
-  - sc_box_b
-  - sc_cavetri
-  - sc_crawl
-  - sc_door
-  - sc_open1w2d
-  - sc_open1w2h
-  - sc_sewer
-  - sc_sewertall
-  - sc_taperlower
-  - sc_taperthin
-  - sd_df31
-  - sd_df46
-  - sd_df49
-  - sd_df51
-  - sd_df53
-  - sd_df54
-  - sd_df55
-  - sd_df56
-  - sd_df61
-  - sd_df63
-  - sd_df65
-  - sd_df71
-  - sd_df72
-  - sd_df76
-  - sd_df77
-  - sd_df78
-  - sd_df79
-  - sd_df81
-  - sd_df83
   - secretdoor
   - sewer
   - ship
@@ -105955,4 +105996,45 @@ MonoBehaviour:
   - weapon
   - windmill
   - window
-  LastClickedIndex: 3697
+  - "\u03C9c_arch"
+  - "\u03C9c_archpitched"
+  - "\u03C9c_archthin"
+  - "\u03C9c_box"
+  - "\u03C9c_boxlarge"
+  - "\u03C9c_cave"
+  - "\u03C9c_crawl"
+  - "\u03C9c_door"
+  - "\u03C9c_open"
+  - "\u03C9c_sewer"
+  - "\u03C9c_sewerdeep"
+  - "\u03C9c_taper"
+  - "\u03C9c_taperthin"
+  - "\u03C9s_adobe"
+  - "\u03C9s_arena"
+  - "\u03C9s_cav01"
+  - "\u03C9s_cav2"
+  - "\u03C9s_cellar1"
+  - "\u03C9s_cellar2"
+  - "\u03C9s_dun01"
+  - "\u03C9s_dun02"
+  - "\u03C9s_dun03"
+  - "\u03C9s_dun04"
+  - "\u03C9s_dun05"
+  - "\u03C9s_dun06"
+  - "\u03C9s_dun07"
+  - "\u03C9s_dun08"
+  - "\u03C9s_dun09"
+  - "\u03C9s_dun10"
+  - "\u03C9s_dun11"
+  - "\u03C9s_dun12"
+  - "\u03C9s_dun20"
+  - "\u03C9s_home1"
+  - "\u03C9s_home2"
+  - "\u03C9s_rich1"
+  - "\u03C9s_rich2"
+  - "\u03C9s_sanct1"
+  - "\u03C9s_sanct2"
+  - "\u03C9s_sanct3"
+  - "\u03C9s_wood"
+  - "\u03C9s_mill"
+  LastClickedIndex: 10038

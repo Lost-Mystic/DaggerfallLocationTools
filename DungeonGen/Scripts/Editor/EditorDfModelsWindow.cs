@@ -254,15 +254,11 @@ public class EditorDfModelsWindow : EditorWindow
         soData.LastClickedIndex = NowClickedIndex;
 
         CheckMeshLoaded(NowClickedIndex);
-        // Cached Filtered Objects Update
+        
 
         PreviewRenderInit();
 
-        //if (DeSelected == true) return;
-
-        
-
-        if (FilteredModels.Count <= 0) return;
+        //if (FilteredModels.Count <= 0) return;
 
     }
 
@@ -281,7 +277,7 @@ public class EditorDfModelsWindow : EditorWindow
         if (NowClickedIndex == -1)
             NowClickedIndex = soData.LastClickedIndex;
 
-        Debug.Log("Try to Check Mesh" + FilteredModels[NowClickedIndex].ModelID.ToString());
+        //Debug.Log("Try to Check Mesh" + FilteredModels[NowClickedIndex].ModelID.ToString());
 
         bool LikelyLostFocus = (selectedIndex.Count == 1 && soData.LastClickedIndex == 0);
         bool ForceUpdate = (NowClickedIndex == -1);
@@ -291,7 +287,7 @@ public class EditorDfModelsWindow : EditorWindow
         {
 
 
-            Debug.Log("Loading Display Mesh ID: " + FilteredModels[NowClickedIndex].ModelID.ToString());
+            //Debug.Log("Loading Display Mesh ID: " + FilteredModels[NowClickedIndex].ModelID.ToString());
             myBareMesh = SpawnDfModel.GetBareMeshFromId(FilteredModels[NowClickedIndex].ModelID);
             
         }
@@ -389,6 +385,33 @@ public class EditorDfModelsWindow : EditorWindow
     /// </summary>
     private void InputPreviewWindowControls(Rect rHotArea)
     {
+
+        if (Event.current.type == EventType.KeyDown && Event.current.keyCode == KeyCode.DownArrow)
+        {
+            soData.LastClickedIndex++;
+            selectedIndex = new List<int>();
+
+            // Nothing currently selected
+            if (selectedIndex.Count == 0)   
+            {
+                soData.LastClickedIndex = 0;
+                selectedIndex.Add(soData.LastClickedIndex);
+            } else
+            // Went out of range
+            if (soData.LastClickedIndex >= selectedIndex.Count) 
+            {
+                soData.LastClickedIndex = 0;
+                selectedIndex.Add(soData.LastClickedIndex);
+            } else
+            // Only one selected - Change both
+            if (selectedIndex.Count == 1)
+            {
+                selectedIndex.Add(soData.LastClickedIndex);
+            }
+
+            Debug.Log("Down Arrow");
+        }
+
         // Only use controls if inside this area
         if (rHotArea.Contains(Event.current.mousePosition) == false)
             return;
@@ -439,12 +462,10 @@ public class EditorDfModelsWindow : EditorWindow
 
         previewRenderUtility.camera.transform.Translate(previewRenderUtility.camera.transform.forward * -1 * ScrollDelta.y * ScrollMod);
 
-
-        
-
-
         if (drag != Vector2.zero || ScrollDelta != Vector2.zero)
             Repaint();
+
+
     
 
     }
@@ -1001,7 +1022,7 @@ public class EditorDfModelsWindow : EditorWindow
     private void OnLostFocus()
     {
 
-        Debug.Log("Lostfocus LastClicked: " + soData.LastClickedIndex.ToString());
+        //Debug.Log("Lostfocus LastClicked: " + soData.LastClickedIndex.ToString());
 
         // Have to call this or when dragging a Preview out into the scene it causes a number of errors.
         if (previewRenderUtility == null)
