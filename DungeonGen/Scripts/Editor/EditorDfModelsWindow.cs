@@ -14,6 +14,9 @@ public class EditorDfModelsWindow : EditorWindow
 
     #region Variables
 
+    string VersionNumber = "0.1";
+    string BuildDate = "09/20/2019";
+
     Editor gameObjectEditor;
     PreviewRenderUtility previewRenderUtility;  // Hold our own previewrender util (used for custom preview windows)
     SoModelRecords soData;                  // Holds link to the Scriptable object with the Model data
@@ -37,6 +40,7 @@ public class EditorDfModelsWindow : EditorWindow
     Vector2 CollapseableLabelListScrollPos = new Vector2();
 
     GUIStyle gsFilteredSelected;
+    GUIStyle gsFilteredSelectedPrime;       // For the primary selected item that shows up in the window (last clicked)
     GUIStyle gsLabelUnselected;
     GUIStyle gsLabelSelected;
     GUIStyleState gssSelected;
@@ -115,7 +119,7 @@ public class EditorDfModelsWindow : EditorWindow
         soData.TryToAddLabel(LabelToAdd, GetSelectedModelRecords());
         EditorUtility.SetDirty(soData);
         AssetDatabase.SaveAssets();
-        UpdateFilteredList();
+        //UpdateFilteredList();
         soData.GetAllCurrentLabels();
     }
 
@@ -726,6 +730,9 @@ public class EditorDfModelsWindow : EditorWindow
         for (int i = EntriesBefore; i < (MaxEntriesOnFilteredListWindow + EntriesBefore); i++)
         {
             //GUI.backgroundColor = (selectedIndex == i) ? color_selected : color_default;
+            if (i == soData.LastClickedIndex)
+                gsCurrent = gsFilteredSelectedPrime;
+            else
             if (IsSelected(i))
                 gsCurrent = gsFilteredSelected;
             else
@@ -956,17 +963,6 @@ public class EditorDfModelsWindow : EditorWindow
     void PrintDebugEditorButtons()
     {
 
-        if (Event.current.control)
-        {
-
-            GUILayout.Label("CTRL");
-        }
-
-        if (Event.current.shift)
-        {
-            GUILayout.Label("SHIFT");
-        }
-
         EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(false));
 
         float buttonWidth = 400;
@@ -1023,13 +1019,18 @@ public class EditorDfModelsWindow : EditorWindow
             selectedIndex.Add(0);
             UpdateFilteredList();
         }
-        */
+        
 
         if (GUILayout.Button("Ready Database for Saving", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
         {
             EditorUtility.SetDirty(soData);
         }
 
+        if (GUILayout.Button("Refresh entire label listings", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
+        {
+            soData.GetAllCurrentLabels();
+        }
+        */
         if (GUILayout.Button("Print selected items", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
         {
             EditorUtility.SetDirty(soData);
@@ -1042,18 +1043,47 @@ public class EditorDfModelsWindow : EditorWindow
             Debug.Log("---===END Selected Index===---");
         }
 
-        if (GUILayout.Button("Refresh entire label listings", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
-        {
-            soData.GetAllCurrentLabels();
-        }
-
-
         EditorGUILayout.EndHorizontal();
 
+    }
 
+    string MyEscapeURL(string url)
+    {
+        return WWW.EscapeURL(url).Replace("+", "%20");
+    }
 
+    void PrintFooterBar()
+    {
+        string email = "mark@lostmystic.com";
+        string subject = MyEscapeURL("Unity Daggerfall Model Editor - ");
+        string body = MyEscapeURL("");
+        
 
+        GUIStyle gsHyperlink = new GUIStyle();
+        gsHyperlink.border = new RectOffset(2, 2, 2, 2);
+        GUIStyleState fsHyper = new GUIStyleState();
+        fsHyper.textColor = Color.blue;
 
+        gsHyperlink.normal = fsHyper;
+
+        GUILayout.BeginHorizontal();
+
+        GUIContent gcAuthor = new GUIContent("Written by Mark Barazzuol", "Previous BioWare Dragon Age Designer and a huge Daggerfall fan!");
+        GUIContent gcContact = new GUIContent("mark@lostmystic.com", "Click here or send me an email with any comments or bugs.");
+
+        GUILayout.Label(gcAuthor);
+        GUILayout.Space(10);
+        if (GUILayout.Button(gcContact,gsHyperlink))
+        {
+
+            Application.OpenURL("mailto:" + email + "?subject=" + subject + "&body=" + body);
+        }
+        GUILayout.FlexibleSpace();
+        GUILayout.Label("Version: " + VersionNumber);
+        //GUILayout.Space(10);
+        
+
+        GUILayout.EndHorizontal();
     }
 
     #endregion
@@ -1139,16 +1169,8 @@ public class EditorDfModelsWindow : EditorWindow
 
         PrintDebugEditorButtons();
 
-        // MultiSelect Objects
+        PrintFooterBar();
 
-        // Show labels on current objects
-        // Show current labels selected - Starts with selected label first no matter what
-        // Add or find a label window
-        // Add label to selected button, bottom of window
-        // Remove label from selected objects - Appears when you click on an already selected label
-
-        // Button to add selected Meshs into scene.  Will only add first one selected.  Greys out if multiple selected.
-        // Event.current.Use();
     }
 
     void SetGuiStyles()
@@ -1166,14 +1188,21 @@ public class EditorDfModelsWindow : EditorWindow
         gsLabelSelected.hover = gssSelected;
         gsLabelSelected.normal = gssSelected;
 
-        gsFilteredSelected = EditorStyles.label;
-        gsFilteredSelected.fontStyle = FontStyle.Bold;
+        gsFilteredSelected = new GUIStyle(EditorStyles.label);
         gssSelected.textColor = Color.white;
-        gsFilteredSelected.fontStyle = FontStyle.Bold;
+        gsFilteredSelected.fontStyle = FontStyle.Normal;
         gsFilteredSelected.onNormal = gssSelected;
         gsFilteredSelected.focused = gssSelected;
         gsFilteredSelected.hover = gssSelected;
         gsFilteredSelected.normal = gssSelected;
+
+        gsFilteredSelectedPrime = EditorStyles.label;
+        gssSelected.textColor = Color.yellow;
+        gsFilteredSelectedPrime.fontStyle = FontStyle.Bold;
+        gsFilteredSelectedPrime.onNormal = gssSelected;
+        gsFilteredSelectedPrime.focused = gssSelected;
+        gsFilteredSelectedPrime.hover = gssSelected;
+        gsFilteredSelectedPrime.normal = gssSelected;
 
     }
 
@@ -1196,7 +1225,6 @@ public class EditorDfModelsWindow : EditorWindow
             soData.LastClickedIndex = 0;
 
 
-        Debug.Log("Setting blue texture");
         Texture2D txBlue = new Texture2D(1, 1);
         txBlue.SetPixel(0, 0, Color.blue);
         txBlue.Apply();
@@ -1231,8 +1259,6 @@ public class EditorDfModelsWindow : EditorWindow
 
         PrevCameraPos = Vector3.forward * BaseCamDist * -1;
 
-
-       // previewRenderUtility.camera.
         Bounds bounds = new Bounds(Vector3.zero, Vector3.one * 20);
         if (myBareMesh.mesh != null)
             bounds.Encapsulate(myBareMesh.mesh.bounds);
@@ -1244,21 +1270,17 @@ public class EditorDfModelsWindow : EditorWindow
 
     private void OnFocus()
     {
-        //OnEnable();
+
         UpdateMeshLoaded(soData.LastClickedIndex);
     }
 
     private void OnLostFocus()
     {
 
-        //Debug.Log("Lostfocus LastClicked: " + soData.LastClickedIndex.ToString());
-
         // Have to call this or when dragging a Preview out into the scene it causes a number of errors.
         if (previewRenderUtility == null)
             previewRenderUtility = new PreviewRenderUtility();
 
-//        previewRenderUtility.Cleanup();
-  //      OnDisable();
     }
 
     private void OnDisable()
