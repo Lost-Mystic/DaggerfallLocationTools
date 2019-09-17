@@ -76,15 +76,26 @@ public class EditorDfLocationsWindow : EditorWindow
 
         // Map Tile Location, or Interior or Dungeon  Tabs
 
+        // Two options: Select then Replace/Insert
+            // This zooms map to locations or blocks and allows user to replace or add entry to a location
+
+
+        // Dungeon Layout
+            // Dungeon Block
+                // Door
+                // Model / Flat / Event
+
+        // Option 2: Import Location - Bring up the area first, then pick where to insert it
         // If Dungeon
         // Replace existing location or add new location
         // Add new location loads a dungeon layout, must have exit(s) the lead to location(s), but with 
         // If add new location needs an above ground entrance with a map tile or keyed door
+            // Verifies all features that need to be in area.  Modifies prefab
 
         // Mod adds interruption in between specific location doors or when streaming a tile
 
         // Dungeon
-        // Data for dungeon,
+        // Data for dungeon
         // Dropdown on how to access it
         // Override existing place (with mod)
         // key a specific door
