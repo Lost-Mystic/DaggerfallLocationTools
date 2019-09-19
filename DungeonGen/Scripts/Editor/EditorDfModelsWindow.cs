@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using DaggerfallWorkshop.DungeonGenerator;
+using System.Xml.Serialization;
+using System.IO;
+using DaggerfallConnect;
+using System.Linq;
+using System;
+
 
 public class EditorDfModelsWindow : EditorWindow
 {
@@ -1043,6 +1049,16 @@ public class EditorDfModelsWindow : EditorWindow
             Debug.Log("---===END Selected Index===---");
         }
 
+        if (GUILayout.Button("Save Assets", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
+        {
+            SaveData();
+        }
+
+        if (GUILayout.Button("Load Assets", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
+        {
+            EditorUtility.OpenFilePanel("MyTitle", Application.dataPath, "*.xml");
+        }
+
         EditorGUILayout.EndHorizontal();
 
     }
@@ -1204,6 +1220,39 @@ public class EditorDfModelsWindow : EditorWindow
         gsFilteredSelectedPrime.hover = gssSelected;
         gsFilteredSelectedPrime.normal = gssSelected;
 
+    }
+
+    XmlSerializer serializer;
+    FileStream stream;
+
+    bool SaveData()
+    {
+        string fileName = "ModelAssetsExport.xml";
+        FileMode writeMode = FileMode.CreateNew;
+
+        if (soData.record == null)
+        {
+            Debug.LogError("soData.record null in WriteBlockData; stopping");
+            return false;
+        }
+
+        try
+        {
+            serializer = new XmlSerializer(typeof(List<DfModelRecord>));
+            //if (string.IsNullOrEmpty(fileName))
+            //    fileName = defaultFileName;
+
+            stream = new FileStream(Path.Combine(Application.dataPath, fileName), writeMode, FileAccess.Write);
+            serializer.Serialize(stream, soData.record);
+            stream.Close();
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError(ex.Message);
+            return false;
+
+        }
+        return true;
     }
 
     #region Events
