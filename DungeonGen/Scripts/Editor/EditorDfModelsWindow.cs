@@ -1056,7 +1056,8 @@ public class EditorDfModelsWindow : EditorWindow
 
         if (GUILayout.Button("Load Assets", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
         {
-            EditorUtility.OpenFilePanel("MyTitle", Application.dataPath, "*.xml");
+            //EditorUtility.OpenFilePanel("MyTitle", Application.dataPath, "*.xml");
+            LoadData();
         }
 
         EditorGUILayout.EndHorizontal();
@@ -1252,6 +1253,43 @@ public class EditorDfModelsWindow : EditorWindow
             return false;
 
         }
+        return true;
+    }
+
+    bool LoadData()
+    {
+        FileMode readMode = FileMode.Open;
+        string fileName;
+
+        fileName = EditorUtility.OpenFilePanel("Select Model Database XML", Application.dataPath, "*.xml");
+
+        try
+        {
+            soData.record = new List<DfModelRecord>();
+            serializer = new XmlSerializer(typeof(List<DfModelRecord>));
+            if (string.IsNullOrEmpty(fileName))
+            {
+                Debug.LogWarning("Null or Empty filname; exiting");
+                return false;
+            }
+
+            if (!File.Exists(Path.Combine(Application.dataPath, fileName)))
+            {
+                Debug.LogError("File not found!");
+                return false;
+            }
+            stream = new FileStream(Path.Combine(Application.dataPath, fileName), readMode, FileAccess.Read);
+            soData.record = (List<DfModelRecord>)serializer.Deserialize(stream);
+            stream.Close();
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError(ex.Message);
+            soData.record = null;
+            stream.Close();
+            return false;
+        }
+
         return true;
     }
 

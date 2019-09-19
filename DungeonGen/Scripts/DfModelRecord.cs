@@ -8,8 +8,6 @@ public class DfModelRecord
 
     public int ModelID;
 
-    public GameObject TestModel;
-
     [Tooltip ("If true, this is not found in the original daggerfall files, and must be included.")]
     public bool ExtendedModel = true;
 
@@ -19,18 +17,13 @@ public class DfModelRecord
     [Tooltip("What categories this belongs to.  For example, Dungeon, Corridor, DaggerfallStyleB.  All labels are stored in lower case.  ")]
     public List<string> Labels;
 
-    [Tooltip("TEMPORARY - TRUE if this can be placed in a dungeon.")]
-    public bool DungeonPiece = false;
-
-    //public BareDaggerfallMeshStats BareMesh;
-
     // List of Connections
-    public DfModelConnectionRecord[] Connections;
+    //public DfModelConnectionRecord[] Connections;
 
     // List of suggested flats
-    public DfFlatRecord[] SuggestedFlats;
+    //public DfFlatRecord[] SuggestedFlats;
     // List of suggested enemy/npc types
-    public DfEnemyRecord[] SuggestedEnemies;
+    //public DfEnemyRecord[] SuggestedEnemies;
 
     // Serialize this data ??
 
