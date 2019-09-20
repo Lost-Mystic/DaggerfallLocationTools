@@ -5,6 +5,7 @@ using UnityEditor;
 using DaggerfallWorkshop.DungeonGenerator;
 using System.Xml.Serialization;
 using System.IO;
+using System.Text;
 using DaggerfallConnect;
 using System.Linq;
 using System;
@@ -824,12 +825,20 @@ public class EditorDfModelsWindow : EditorWindow
             AddLabel(txtLabelEntry);
         }
 
+        GUILayout.FlexibleSpace();
+
         if (GUILayout.Button("Remove"))
         {
             // Check if label has been added to any items at all
             RemoveLabel(txtLabelEntry);
         }
 
+        GUILayout.FlexibleSpace();
+
+        if (GUILayout.Button("Rename"))
+        {
+
+        }
 
         EditorGUILayout.EndHorizontal();
     }
@@ -1223,12 +1232,22 @@ public class EditorDfModelsWindow : EditorWindow
 
     }
 
+    public class Utf8StringWriter : StringWriter
+    {
+        public override Encoding Encoding { get { return Encoding.UTF8; } }
+    }
+
     XmlSerializer serializer;
     FileStream stream;
 
     bool SaveData()
     {
         string fileName = "ModelAssetsExport.xml";
+
+
+        //fileName = EditorUtility.OpenFilePanel("Save file as", Application.dataPath, "*.xml");
+        fileName = EditorUtility.SaveFilePanel("Save file as", Application.dataPath, "ModelAssetExport.xml", "xml");
+
         FileMode writeMode = FileMode.CreateNew;
 
         if (soData.record == null)
@@ -1240,11 +1259,24 @@ public class EditorDfModelsWindow : EditorWindow
         try
         {
             serializer = new XmlSerializer(typeof(List<DfModelRecord>));
-            //if (string.IsNullOrEmpty(fileName))
-            //    fileName = defaultFileName;
+            //string utf8;
 
             stream = new FileStream(Path.Combine(Application.dataPath, fileName), writeMode, FileAccess.Write);
+
             serializer.Serialize(stream, soData.record);
+
+            /*
+            using (StringWriter writer = new Utf8StringWriter())
+            {
+                
+                //serializer.Serialize(writer, entry);
+                
+            }
+            */
+
+
+            
+            
             stream.Close();
         }
         catch (Exception ex)
@@ -1278,6 +1310,7 @@ public class EditorDfModelsWindow : EditorWindow
                 Debug.LogError("File not found!");
                 return false;
             }
+            
             stream = new FileStream(Path.Combine(Application.dataPath, fileName), readMode, FileAccess.Read);
             soData.record = (List<DfModelRecord>)serializer.Deserialize(stream);
             stream.Close();
