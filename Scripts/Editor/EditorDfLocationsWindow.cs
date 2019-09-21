@@ -223,6 +223,13 @@ public class EditorDfLocationsWindow : EditorWindow
         // Coordinates on map (with popup map)
         GUILayout.Label("Map Coords:");
 
+        // Check if dungeon is registered.   This will either register the dungeon, or change something in it.
+
+        if (GUILayout.Button("Register Dungeon"))
+        {
+
+        }
+
     }
 
     void Update()

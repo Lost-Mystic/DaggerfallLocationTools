@@ -915,6 +915,7 @@ public class EditorDfModelsWindow : EditorWindow
             if (bHideLabeled)
                 SelectedLabel = new List<string>();
 
+            soData.GetAllCurrentLabels();
             UpdateFilteredList();
 
         }
@@ -1222,7 +1223,7 @@ public class EditorDfModelsWindow : EditorWindow
         gsFilteredSelected.hover = gssSelected;
         gsFilteredSelected.normal = gssSelected;
 
-        gsFilteredSelectedPrime = EditorStyles.label;
+        gsFilteredSelectedPrime = new GUIStyle(EditorStyles.label);
         gssSelected.textColor = Color.yellow;
         gsFilteredSelectedPrime.fontStyle = FontStyle.Bold;
         gsFilteredSelectedPrime.onNormal = gssSelected;
