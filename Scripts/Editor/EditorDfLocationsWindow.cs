@@ -137,6 +137,20 @@ public class EditorDfLocationsWindow : EditorWindow
         // Requests to Maps.bsa
         // DFValidator:152  // Supports alternate MAPS.BSA from Resources if available
 
+
+        // MODIFY THE LOCATIONS INDEX
+        // Have our own data file that has overwrites for regions already.
+        // Each data point is driven by a mod.  Use the mod's loading order and existing locations to ensure no overwrites
+        // Have the "final" modified version of the additional map data parsed.
+        // 1.) Wait until the maps file is loaded.
+            // Use the start mod events unless better are found.
+        // 2.) Then edit the maps file index in memory
+        // 3.) Then reload the existing area if needed 
+        // ?? Content Reader Get Location is used, how to overwrite that?  Does it mandate use of the data file?
+
+
+        // Modify mapsfile.cs  region record add the new region index in or change it
+
         if (GUILayout.Button("Teleport Player to test dungeon area", GUILayout.Width(buttonWidth), GUILayout.Height(buttonHeight)))
         {
             // Test if game is running
