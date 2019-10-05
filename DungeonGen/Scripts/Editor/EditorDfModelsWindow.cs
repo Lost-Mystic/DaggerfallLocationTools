@@ -11,6 +11,7 @@ using System.Linq;
 using System;
 
 
+
 public class EditorDfModelsWindow : EditorWindow
 {
     [MenuItem("Daggerfall Tools/Daggerfall Models")]
@@ -34,12 +35,13 @@ public class EditorDfModelsWindow : EditorWindow
     int MaxEntriesOnFilteredListWindow;     // Max entries you can have on the filtered list based on current window height
 
 
-    float dimTopLabelsHeight = 20f;
     float dimFilteredListWidth = 100f;
     float dimPreviewFilteredHeight = 200f;
     float dimPreviewFilteredHeightPercent = 0.5f;       // What height percentage of the window does it take up
     float dimLabelEntryHeight = 20f;                    // Height of the label entry section
     float dimLabelListingHeight = 60f;                  // Suggested height of the label listings (they'll wrap and take as much as required
+    float dimDebugHeight;
+    float dimFooterHeight;
 
     float FilteredModelListEntryWidth = 60f;
     float FilteredModelListEntryHeight = 20f;
@@ -936,13 +938,19 @@ public class EditorDfModelsWindow : EditorWindow
     {
         float viewWidth = EditorGUIUtility.currentViewWidth;
 
+        Rect prevRect = GUILayoutUtility.GetLastRect();
+        float dimWidth = viewWidth;
+        float dimLineCount = 0;
+        int dimRowCount = 0;
+
         GUIStyle gsCurrent = new GUIStyle();
 
-        EditorGUILayout.BeginVertical();
+        EditorGUILayout.BeginVertical(GUILayout.MinHeight(30));
 
-        CollapseableLabelListScrollPos = GUILayout.BeginScrollView(CollapseableLabelListScrollPos);
+        CollapseableLabelListScrollPos = GUILayout.BeginScrollView(CollapseableLabelListScrollPos,false,false,GUILayout.ExpandHeight(true));
         GUILayout.BeginHorizontal(GUILayout.MaxWidth(viewWidth));
         //GUILayout.BeginArea(new Rect(0, 450, viewWidth, 80));
+
 
         foreach (string s in soData.Labels)
         {
@@ -960,9 +968,23 @@ public class EditorDfModelsWindow : EditorWindow
                     SelectedLabelClickAdd(s);
                 }
             }
+            /*
+            //dimLineCount += GUILayoutUtility.GetLastRect().width;
+            GUIContent gc = new GUIContent(s);
+            dimLineCount += GUILayoutUtility.GetRect(gc, gsLabelUnselected).width;
 
+
+            if ((dimLineCount) > dimWidth)
+            {
+                //GUILayout.EndHorizontal();
+                //GUILayout.BeginHorizontal();
+                dimLineCount = 0;
+                dimRowCount++;
+            }
+            */
 
         }
+
         //GUILayout.EndArea();
         GUILayout.EndHorizontal();
         GUILayout.EndScrollView();
