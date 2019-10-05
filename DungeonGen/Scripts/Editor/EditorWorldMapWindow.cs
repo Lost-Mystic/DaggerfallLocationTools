@@ -107,6 +107,8 @@ public class EditorWorldMapWindow : EditorWindow {
         GUILayout.Label("Map Rect:");
         GUILayout.Label(rectMap.ToString());
 
+        GUILayout.FlexibleSpace();
+
         GUILayout.EndHorizontal();
     }
 
@@ -195,8 +197,8 @@ public class EditorWorldMapWindow : EditorWindow {
         //MapTexture.Resize(Mathf.RoundToInt(MapTexture.width * 0.9f), Mathf.RoundToInt(MapTexture.height * 0.9f));
         MapDisplay.Apply();
 
-        Debug.Log("Width: " + MapWindowWidth.ToString() + " Height: " + MapWindowHeight.ToString() +
-            " Zoom: " + ZoomFactor.ToString() + " offset: " + PanOffset.ToString());
+        //Debug.Log("Width: " + MapWindowWidth.ToString() + " Height: " + MapWindowHeight.ToString() +
+        //    " Zoom: " + ZoomFactor.ToString() + " offset: " + PanOffset.ToString());
 
 
         bNeedsRedraw = true;
@@ -254,7 +256,7 @@ public class EditorWorldMapWindow : EditorWindow {
 
     void CheckOffsetBoundaries()
     {
-        Debug.Log("checking offset boundaries");
+        //Debug.Log("checking offset boundaries");
 
         // If zoom at 1 offset can only go to max of 0
         // zoom at 2 offset max 0.5f
@@ -266,9 +268,38 @@ public class EditorWorldMapWindow : EditorWindow {
 
     }
 
+    /// <summary>
+    /// Takes a position on the screen and converts it to a map pixel.  Clamped map edges
+    /// </summary>
+    /// <param name="MapScrenLoc">The pixel location on the window.  Accounts for borders</param>
+    /// <returns></returns>
     Vector2 ScreenToMapCoords(Vector2 MapScrenLoc)
     {
+        float TempZoom = 1 / ZoomFactor;
+
+        // How many map pixels one screen pixel counts for
+        Vector2 NormalizedPixelUnit = new Vector2(ZoomFactor, ZoomFactor);
+
+        MapScrenLoc /= NormalizedPixelUnit;
+        // Subtract the offset
+
+        Vector2 MapPixelSize = new Vector2(MapTexture.width, MapTexture.height);
+        // Get current offset to add
+        Vector2 AdjustedPanOffset = PanOffset;      // Copy over the pan offset to reverse it
+        Vector2 EditorWindowSize = (MapPixelSize * ZoomFactor) / MapPixelSize;
+
+        AdjustedPanOffset.y *= ZoomFactor * -1;
+        AdjustedPanOffset.y = 1 - AdjustedPanOffset.y - EditorWindowSize.y; // Adjust the Y axis as it's reversed
+
+        // How many map pixels are we over
+        AdjustedPanOffset.x *= ZoomFactor * -1;
+        AdjustedPanOffset *= MapPixelSize;
+
+        MapScrenLoc += AdjustedPanOffset;
+        MapScrenLoc += DimMapBorder;
+
         return MapScrenLoc;
+
     }
 
     /// <summary>
@@ -300,6 +331,7 @@ public class EditorWorldMapWindow : EditorWindow {
         AdjustedPanOffset *= MapPixelSize;
 
         MapLoc += AdjustedPanOffset;
+        MapLoc += DimMapBorder;
 
         return MapLoc;
     }
@@ -316,7 +348,7 @@ public class EditorWorldMapWindow : EditorWindow {
 
         if (IsOutsideMap(loc))
         {
-            Debug.LogError("Texture to display is outside map area. " + loc.ToString());
+            //Debug.LogError("Texture to display is outside map area. " + loc.ToString());
             return;
         }
 
