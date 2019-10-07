@@ -25,6 +25,11 @@ public class EditorWorldMapWindow : EditorWindow {
     PreviewRenderUtility previewRenderUtility;
     float ZoomFactor = 1.0f;
     float WindowZoomFactor = 1.0f;      // At 1.0 the window is large enough for a full 1000x500 pixel map
+
+    /// <summary>
+    /// If the map is larger or smaller only because of the window size, what is the modification.
+    /// </summary>
+    float MapWindowSizeZoomMod = 1.0f;   
     Vector2 PanOffset = Vector2.zero;
 
     int OldWindowWidth;
@@ -35,6 +40,7 @@ public class EditorWorldMapWindow : EditorWindow {
 
     int MapWindowWidth;
     int MapWindowHeight;
+    Vector2 MapPixelSize;
 
     Vector2 DimMapBorder;
 
@@ -88,28 +94,52 @@ public class EditorWorldMapWindow : EditorWindow {
 
     void PrintFooterBar()
     {
+        GUILayout.BeginVertical();
+
         GUILayout.BeginHorizontal();
 
         if (GUILayout.Button("Resize"))
         {
             ResizeMap();
+            ZoomDrawMap();
         }
 
         GUILayout.Space(10);
-        GUILayout.Label("Mouse Map Coords:");
+        GUILayout.Label("Mouse:");
+        GUILayout.Label(Event.current.mousePosition.ToString("n0"));
+
+        GUILayout.Space(3);
+        GUILayout.Label("Map Coords:");
         GUILayout.Label(GetMouseMapCoords().ToString());
 
-        GUILayout.Space(10);
+        GUILayout.Space(3);
         GUILayout.Label("Offset:");
-        GUILayout.Label(PanOffset.ToString());
+        GUILayout.Label(PanOffset.ToString("n4"));
 
-        GUILayout.Space(10);
+        GUILayout.Space(3);
         GUILayout.Label("Map Rect:");
         GUILayout.Label(rectMap.ToString());
 
-        GUILayout.FlexibleSpace();
+        
 
         GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+
+        if (GUILayout.Button("Scale to 1"))
+        {
+            MapWindowHeight = 500;
+            MapWindowWidth = 1000;
+            MapWindowSizeZoomMod = 1;
+            ZoomDrawMap();
+            bNeedsRedraw = true;
+        }
+
+        GUILayout.Label("MapWindowSizeZoomMod:");
+        GUILayout.Label(MapWindowSizeZoomMod.ToString("n8"));
+
+        GUILayout.EndHorizontal();
+        GUILayout.EndVertical();
     }
 
     Vector2Int GetMouseMapCoords()
@@ -151,6 +181,8 @@ public class EditorWorldMapWindow : EditorWindow {
 
     void ResizeMap()
     {
+
+        DimMapBorder = new Vector2(7, 7);
         CheckOffsetBoundaries();
 
         int OffsetX = Mathf.RoundToInt(PanOffset.x);
@@ -168,39 +200,48 @@ public class EditorWorldMapWindow : EditorWindow {
         {
             MapWindowHeight -= FooterMinimumHeight;
             MapWindowWidth = Mathf.RoundToInt(MapWindowHeight / MapSizeRatio);
+
+            if (MapWindowWidth > (this.position.width-DimMapBorder.x*2))
+            {
+                MapWindowWidth = Mathf.RoundToInt(this.position.width);
+                MapWindowHeight = Mathf.RoundToInt(MapWindowWidth * MapSizeRatio);
+            }
         }
 
         MapWindowWidth = Mathf.RoundToInt(MapWindowWidth);
         MapWindowHeight = Mathf.RoundToInt(MapWindowHeight);
-        MapWindowWidth -= 14;    // Offset
-        MapWindowHeight -= 14;
+        MapWindowWidth -= Mathf.RoundToInt(DimMapBorder.x*2);    // Offset
+        MapWindowHeight -= Mathf.RoundToInt(DimMapBorder.y*2);
 
         if (MapWindowHeight < 1) MapWindowHeight = 1;
         if (MapWindowWidth < 1) MapWindowWidth = 1;
 
-        //Vector2 vPanOffset = PanOffset / EditorWindowWidth;
-        //vPanOffset /= ZoomFactor;
+        // Get overall zoom of the map based only on the window size 
+        MapWindowSizeZoomMod =  (float)MapWindowWidth / (float)MapTexture.width;
 
-        // Need to copy to new array the perfect size of the new items,  Current Array size does not match width and height of setpixels
-
-        MapPixels = MapTexture.GetPixels32();
-        //MapDisplay = new Texture2D(Width, Height);
-        //MapDisplay.SetPixels32(OffsetX, OffsetY, Width, Height, MapPixels);
-
+        /*
         MapDisplay = TextureScaler.scaled(MapTexture, MapWindowWidth, MapWindowHeight, ZoomFactor, PanOffset.x, PanOffset.y);
-        // Isolate the portion of the map being used based on scale 2.0 scale = 2 pixels per 1 actual pixel
 
-        // How big is the map compared to the 
-
-        // Compare it's dimensions to the window dimensions.
-
-        //MapTexture.Resize(Mathf.RoundToInt(MapTexture.width * 0.9f), Mathf.RoundToInt(MapTexture.height * 0.9f));
         MapDisplay.Apply();
 
         //Debug.Log("Width: " + MapWindowWidth.ToString() + " Height: " + MapWindowHeight.ToString() +
         //    " Zoom: " + ZoomFactor.ToString() + " offset: " + PanOffset.ToString());
 
+        */
+        bNeedsRedraw = true;
+        
+    }
 
+    /// <summary>
+    /// Redraws the map based on zoom or pan, but NOT from resizing the editor window
+    /// </summary>
+    void ZoomDrawMap()
+    {
+        CheckOffsetBoundaries();
+        MapDisplay = TextureScaler.scaled(MapTexture, MapWindowWidth, MapWindowHeight, ZoomFactor, PanOffset.x, PanOffset.y);
+        // Isolate the portion of the map being used based on scale 2.0 scale = 2 pixels per 1 actual pixel
+
+        MapDisplay.Apply();
         bNeedsRedraw = true;
     }
 
@@ -241,7 +282,7 @@ public class EditorWorldMapWindow : EditorWindow {
 
             PanOffset += PanTemp;
 
-            ResizeMap();
+            ZoomDrawMap();
         }
 
         if (Event.current.type == EventType.ScrollWheel)
@@ -249,11 +290,14 @@ public class EditorWorldMapWindow : EditorWindow {
             ZoomFactor -= ScrollDelta.y * 0.1f;
             ZoomFactor = Mathf.Clamp(ZoomFactor, 1.0f, 50.0f);
 
-            ResizeMap();
+            ZoomDrawMap();
         }
 
     }
 
+    /// <summary>
+    /// Ensures zoom stays maximized at 1 and you don't zoom or pan outside the offsets of the map
+    /// </summary>
     void CheckOffsetBoundaries()
     {
         //Debug.Log("checking offset boundaries");
@@ -307,31 +351,30 @@ public class EditorWorldMapWindow : EditorWindow {
     /// Takes texture border into account
     /// </summary>
     /// <param name="MapLoc">The map location</param>
-    /// <returns></returns>
+    /// <returns>Pixel value from top left on current screen where the map coordinate is.</returns>
     Vector2 MapToMapScreenCoords(Vector2 MapLoc)
     {
-        float TempZoom = 1 / ZoomFactor;
-
         // How many map pixels one screen pixel counts for
-        Vector2 NormalizedPixelUnit = new Vector2(ZoomFactor, ZoomFactor);
+        float NormalizedPixelUnit = ZoomFactor;
+        NormalizedPixelUnit *= MapWindowSizeZoomMod;    // Adjust for window map zoom
 
         MapLoc *= NormalizedPixelUnit;
-        // Subtract the offset
 
-        Vector2 MapPixelSize = new Vector2(MapTexture.width, MapTexture.height);
+        // --- Create the Offset ---
         // Get current offset to add
         Vector2 AdjustedPanOffset = PanOffset;      // Copy over the pan offset to reverse it
-        Vector2 EditorWindowSize = (MapPixelSize * ZoomFactor) / MapPixelSize;
-        
-        AdjustedPanOffset.y *= ZoomFactor * -1;
-        AdjustedPanOffset.y = 1 - AdjustedPanOffset.y - EditorWindowSize.y; // Adjust the Y axis as it's reversed
-        
-        // How many map pixels are we over
-        AdjustedPanOffset.x *= ZoomFactor * -1;
+
+        // Flip Y, but account for screen size at bottom taking up room
+        // 1/Zoomfactor represents a percentage of screen space.
+        AdjustedPanOffset.y = 1 - AdjustedPanOffset.y - (1/ZoomFactor); 
+
+        AdjustedPanOffset *= NormalizedPixelUnit;   // Convert Percent to normalized pixel units
+
+        // Convert normalized pixel units to current screen pixels
         AdjustedPanOffset *= MapPixelSize;
 
-        MapLoc += AdjustedPanOffset;
-        MapLoc += DimMapBorder;
+        MapLoc -= AdjustedPanOffset;        // Subtract the offset
+        //MapLoc += DimMapBorder;           // Add the borders of the map
 
         return MapLoc;
     }
@@ -345,6 +388,7 @@ public class EditorWorldMapWindow : EditorWindow {
     {
         // Convert Loc to on screen location
         loc = MapToMapScreenCoords(loc);
+        
 
         if (IsOutsideMap(loc))
         {
@@ -352,10 +396,8 @@ public class EditorWorldMapWindow : EditorWindow {
             return;
         }
 
-
-
         Rect rAspectScale = new Rect(0, 0, 0.05f, 0.05f);
-        Rect rDrawHere = new Rect(DimMapBorder.x + loc.x, DimMapBorder.y + loc.y, 50, 50);  // Pixel width
+        Rect rDrawHere = new Rect(loc.x, loc.y, 50, 50);  // Pixel width
 
         GUI.DrawTexture(rDrawHere, img);
         //GUI.DrawTextureWithTexCoords(rDrawHere, img, rAspectScale,true);
@@ -370,7 +412,8 @@ public class EditorWorldMapWindow : EditorWindow {
     /// <returns></returns>
     bool IsOutsideMap(Vector2 loc)
     {
-        if (loc.x < 0 || loc.x > MapTexture.width || loc.y < 0 || loc.y > MapTexture.height)
+        if (loc.x < 0 || loc.x > (MapTexture.width * MapWindowSizeZoomMod)
+            || loc.y < 0 || loc.y > (MapTexture.height * MapWindowSizeZoomMod))
             return true;
 
         return false;
@@ -409,11 +452,12 @@ public class EditorWorldMapWindow : EditorWindow {
     void OnEnable()
     {
 
-        DimMapBorder = new Vector2(7, 7);
+        DimMapBorder = new Vector2(8, 8);
         MapTexture = Resources.Load("DF-map-Iliac_Bay_Political_View") as Texture2D;
         txtDaggerfall = Resources.Load("Location-Daggerfall") as Texture2D;
 
         MapPixels = MapTexture.GetPixels32();
+        MapPixelSize = new Vector2(MapTexture.width, MapTexture.height);
 
         Texture2D txBlue = new Texture2D(1, 1);
         txBlue.SetPixel(0, 0, Color.blue);
